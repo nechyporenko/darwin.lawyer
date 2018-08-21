@@ -1,0 +1,7 @@
+Utilized 3rd Party Scripts:
+---------------------------
+https://github.com/uoziod/deep-checkbox
+https://github.com/louisremi/jquery-smartresize
+https://github.com/ilikenwf/nestedSortable
+https://github.com/Pixabay/jQuery-tagEditor
+https://github.com/acdvorak/jquery.caret

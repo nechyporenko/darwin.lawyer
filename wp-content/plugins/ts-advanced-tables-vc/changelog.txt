@@ -1,0 +1,180 @@
+Version 2.0.1
+-------------
+- Added additional checks for existence of underlying required SQL database table and rebuild routine is missing
+- Added security check to table delete button within table editor to prevent accidental triggering of delete routine
+- Added security check to table clone button within table editor to prevent accidental triggering of clone routine
+- Fixed issue where table cloning from within table listing page will open original table instead of the cloned version after process is done
+- Fixed issue in single table import via clipboard where paste event into textarea does not work in some browsers
+- Fixed issue with MariaDB SQL where using the restricted character "." (dot) in database prefix prevented the creation of the plugin's underlying database table
+- Fixed issue where plugin did not load icon font files for enabled fonts
+- Updated internal PHP helper "Codestar" framework from v1.0.1 to v1.0.2
+- Other CSS + JS Improvements
+- Updated EN/DE .po/.mo language files
+
+Version 2.0.0
+-------------
+- Plugin has been renamed to "Tablenator - Advanced Tables for WordPress & WP Bakery Page Builder" to better reflect non-dependency on WP Bakery Page Builder (formerly Visual Composer)
+- Added a dedicated "Tables Maintenance" page to plugin menu for quick access to the table export/import/delete routines
+- Added option to create a full backup of all existing tables via SQL file and backup restoration feature (in addition to already existing single table export/import option)
+- Editor settings for each table now store a permanent state and will be reapplied every time the editor (re)loads instead of resetting to their default setting
+- Restored missing style sheets for WP Bakery Page Builder (formerly Visual Composer) icon fonts "Mono Social Font (VC)" and "Material Font (VC)" for icon picker in table editor
+- Internal prefixes for variables and functions have been changed from "TS_TablesVC_" to "TS_TablesWP_" to reflect change in plugin name
+- Fixed issue in table editor where pre-defined categories were not listed as available assignments to the table
+- Fixed issue with Avada theme where categories pages for WooCommerce products and WP posts are unaccessible
+- Fixed issue with toggle icons in FooTable layout when no "Font Awesome" files are present
+- Fixed issue with MariaDB SQL where "rows" became a reserved term as of v10.2.4, preventing the creation of the plugin's underlying database table
+- Fixed issue where no new rows could be created if the default number of decimals for currency values was set to anything other than 2
+- Updated 3rd party noUiSlider script from v9.2.0 to v10.1.0
+- Other CSS + JS Improvements
+- Updated EN/DE .po/.mo language files
+
+Version 1.2.3
+-------------
+- Added more information to categories selector in table editor if no pre-defined categories to select from exist yet
+- Strengthened editor check for invalid currency symbol codes that can not be used as class name
+- Fixed "Invalid argument supplied for foreach()" warning on "Categories Manager" page if no categories have been created yet
+- Fixed "Uncaught TypeError: Cannot read property sortable of undefined" JS error on "Categories Manager" page
+- Fixed "Uncaught TypeError: jQuery(...).nestedSortable is not a function" JS error on "Categories Manager" page
+- Fixed "Undefined variable: randomizer in ts_vcsc_parameter_livepreview.php" file
+- Fixed "Undefined variable: class in ts_vcsc_parameter_livepreview.php" file
+- Fixed "Undefined offset: 0" warning on table listing page if custom database table could not be found to determine overall database load
+
+Version 1.2.2
+-------------
+- Added new category manager to plugin to pre-define usable table categories
+- Added option to table editor to assign any of the pre-defined categories to a table
+- Global table listing page for all created tables can now be filtered by assigned categories
+- Table editor has been restructured and split into tabs for easier navigation and distraction free editing
+- Fixed issue where deleting all tables via provided button does not reset internal listing of utilized table ID's
+- Plugin now attempts to remove restricted backslash characters from content when editing a corrupted table that has been stored after using said character in an older version
+- Fixed missing header label URL decoding routine for basic responsive layout options
+- HandOnTable script has been updated from v0.27.0 to v0.34.0
+- DataTables script has been updated from v1.10.12 to v1.10.15
+- ToolTipster script has been updated from v3.3.0 to v4.2.5
+
+Version 1.2.1
+-------------
+- Fixed issue where a newly created table could not be saved on some servers
+- Added option to "TableSaw" script to define a fixed width for all persistent (always visible) columns
+- Fixed issue with IE/Edge/FireFox browsers where cell background colors overlap the cell border
+- Added option to icon picker to add icon to same line before existing content or to create a new line before existing content
+- Added option to link generator to add link to same line before existing content or to create a new line before existing content
+- Plugin will now automatically optimize the custom database table whenever a table has been deleted
+- Plugin will now output the overall size in MB of the custom database table holding all created tables on the tables listing page
+- Table editor will now automatically URL encode every cell content to allow for some otherwise restricted characters
+- Fixed issue in icon font manager where activating some fonts will reset all fonts to their default status
+- Updated internal "Font Awesome" font to current release of v4.7.0 (675 icons; duplicate icons with different names now removed from icon picker; will still render on frontend)
+- Other CSS + JS Improvements
+- Updated EN/DE .po/.mo language files
+
+Version 1.2.0
+------------- 
+- Auto-update routine has been moved to an external service at "https://kernl.us" for better performance
+- Added font icon generator to table editor to easily add font icons as table content
+- Added 16 built-in icon fonts to plugin
+- Added access to all icon fonts built into Visual Composer to plugin
+- Added acces to WordPress internal "Dashicons" icon font to plugin
+- Added option to "FooTable" and "DataTable" scripts to define custom initial page length
+- Added option to "FooTable" and "DataTable" scripts to define custom page length options for end viewer
+- Fixed issue where disabling the top-fixed row in the table editor does not save correctly
+- Fixed issue where cell content starting with a "=" character prevented the editor from saving the table
+- Fixed issue where custom table formatting is not getting applied on frontend if custom table ID name has been used
+- Updated "FooTable" script from v3.1.2 to v3.1.4
+- Made underlying JS backend routines backwards compatible to noUiSlider script v9.0.0 (currently using v9.2.0)
+- Other CSS + JS Improvements
+- Updated EN/DE .po/.mo language files
+
+Version 1.1.5
+-------------
+- Added option to sort columns via "natural sort" with new column types "Alpha-Numeric (Case Sensitive)" and "Alpha-Numeric (Case Insensitive)" ("DataTable" script only)
+- Added option to assign column to new column type "Numeric-HTML" for numeric data wrapped in HTML tags (DataTable script only)
+- Updated "TableSaw" script from v3.0.0-beta.4 to v3.0.1-beta.15
+- Other CSS + JS Improvements
+- Updated EN/DE .po/.mo language files
+
+Version 1.1.4
+-------------
+- Added option to delete all created tables at once (instead of just individually)
+- Fixed Undefined variable: randomizer in TS_TablesWP_registrations_codestar.php on line 39
+- Fixed wrong sort order for table ID selectbox on table listing page
+- Changelog page within plugin settings will now check if "allow_url_fopen" is enabled before attempting to read in changelog file
+- Other CSS + JS Improvements
+- Updated EN/DE .po/.mo language files
+
+Version 1.1.3
+-------------
+- Added option to DataTables settings to define columns that will always be visible (no matter the table width)
+- Dropped usage of "vc_generate_dependencies_attributes" function for all custom parameters (deprecated in Visual Composer since v4.8.0)
+- Restored help tooltips for shortcode generator that were hidden on some setups due to z-index conflict
+- Fixed issue with NoUISLider setting parameters where value in input box receives 2nd number after using up/down arrows
+- Fixed table import routine when table data is provided from clipboard instead of imported .txt data file
+- Other CSS + JS Improvements
+- Updated EN/DE .po/.mo language files
+
+Version 1.1.2
+-------------
+- Added option to link generator in table editor to define link title attribute
+- Added option to link generator in table editor to insert link in a new line via line break or inline to existing content
+- Link generator will now only submit link to editor and close popup if link URL and text string are provided
+- Fixed link generator not closing in FireFox browser when submitting valid link data
+- Added option to external image insert generator to define ALT attribute for image
+- External image insert generator will now only submit image path and close popup if a image source has been provided
+- Fixed external image insert generator not closing in FireFox browser when submitting valid image data
+- Fixed MySQL issue "there can be only one TIMESTAMP column with CURRENT_TIMESTAMP in DEFAULT or ON UPDATE clause" for MySQL versions of less than v5.6.5
+- Added option to migration tool to keep old table option data in database
+- Expanded uninstall routines to now drop custom database table along with setting options
+- Other CSS + JS Improvements
+- Updated EN/DE .po/.mo language files
+
+Version 1.1.1
+-------------
+- Restored editor access for fresh installs where the migration prompt for existing tables is accidentially shown instead
+- Fixed Uncaught Error: Cannot find module 'zeroclipboard' in table editor due to missing file
+
+Version 1.1.0
+-------------
+- Added option to directly import a comma delimted CSV spreadsheet file into an existing table (replacing all data)
+- Added option to export existing table via clipboard or .txt file (base64 encoded) to be imported as a new table on another site
+- Changed table storage method from standard WordPress option settings to dedicated custom database table (automatic migration routine is provided)
+- Added option to control which user roles should have access to the table editor and table action routines (administrator and editor set as defaults)
+- Added option to fully "unhook" plugin from Visual Composer to only use with built-in shortcode generator
+- Added option to toggle (on/off) right click context menu in table editor
+- Added option to toggle (on/off) cell content validator warning highlights in table editor (red background color for invalid cell contents)
+- Added option to toggle (on/off) top fixed row and left fixed column in table editor (top fixed row enabled by default; BETA feature)
+- Added option to use basic shortcodes as cell content and check cells for shortcodes while rendering table on the frontend
+- Added options to separate tablet and mobile breakpoints for DataTable script into landscape and portrait formats in Visual Composer and shortcode generator
+- Added options to plugin settings to globally customize breakpoint settings for tables using the FooTable or DataTable scripts
+- Added dedicated page to enter and confirm license key to unlock new auto-update routine
+- Added new preloader animation style
+- Improved some conditional setting rules for Visual Composer element and shortcode generator
+- Fixed issue in table editor where plugin does not correctly deselect the cell (selection) if clicking outside the spreadsheet
+- Fixed incorrect sort order of table listing by table ID when 10 or more tables have been created
+- Fixed "Uncaught ReferenceError: TS_VCSC_Base64 is not defined" JS error when showing cell comments via tooltip
+- Improved rendering of basic HTML content within cell when using table editor
+- Fixed sorting of table listing when using "Created At" or "Last Updated" columns
+- Internal noUiSlider script has been updated from v8.2.1 to v9.2.0
+- Other CSS + JS Improvements
+- Updated EN/DE .po/.mo language files
+
+Version 1.0.3
+-------------
+- Renamed a utilized JS function in order to prevent conflict with different function of same name in BuddyPress plugin, causing random "pos" text strings in tinyMCE editor
+
+Version 1.0.2
+-------------
+- Changed minimum required user role for table listing and editor access from "Adminsitrator" to "Editor" user role
+
+Version 1.0.1
+-------------
+- Added options to table settings in Visual Composer + Shortcode Generator to customize some basic text styling (font size / font weight / text transform)
+- Fixed "indexOf of undefined" error in "jquery.vcsc.admin.generator.min.js" file when attaching shortcode generator to tinyMCE editors
+- Fixed "Warning: Cannot modify header information - headers already sent" warning when saving/deleting/cloning a table
+- Updated external links to new domains for demo and support websites
+- Added links to settings page, documentation and support and helpdesk to plugin listing on "Installed Plugins" page
+- Updated some internal JS routines to make plugin compatible with "Composium - Visual Composer Extensions Addon" plugin (v5.1.x)
+- Plugin will now check for 3rd party "Elements for Users - Addon for Visual Composer" plugin to correctly register elements with that plugin as well
+- Updated EN/DE .po/.mo language files
+
+Version 1.0.0
+-------------
+- Initial Release

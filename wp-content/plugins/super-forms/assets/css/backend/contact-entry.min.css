@@ -1,0 +1,120 @@
+/*------------------------
+    Contact Entry Page
+-------------------------*/
+.status-trash .mark {
+    display: none;
+}
+.status-super_read .super-mark-read {
+    display: none;
+}
+.status-super_read {
+    background: rgba(243, 243, 243, .85);
+    color: #222;
+}
+.status-super_read th,
+.status-super_read td,
+.status-super_unread th,
+.status-super_unread td {
+    border-bottom: 1px #e5e5e5 solid;
+}
+.super-entry-status {
+    background-color: #808080;
+    padding:2px 10px 4px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size:12px;
+    cursor: default;
+}
+.status-super_read a {
+    color: #777;
+    font-weight: normal;
+}
+.status-super_read .row-actions a,
+.status-super_unread .row-actions a {
+    color: #444;
+    font-weight: normal;
+}
+.status-super_unread a {
+    color: black;
+    font-weight: bold;
+}
+.status-super_unread .super-mark-unread {
+    display: none;
+}
+.status-super_unread {
+    background-color: white;
+}
+.super-export-entry-columns {
+    float:left;
+    width:100%;
+    margin: 20px 0px 10px 0px;
+}
+.super-export-entry-columns .super-entry-column {
+    float:left;
+    width:100%;
+    margin:0;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+    background-color: white;
+}
+.super-export-entry-columns .super-entry-column.sortable-placeholder {
+    border:0;
+    background-image: url("../../images/sortable-placeholder.png");
+}
+.super-export-entry-columns .super-entry-column span,
+.super-export-entry-columns .super-entry-column input {
+    height: 20px;
+    display:block;
+    float:left;
+    width: 255px;
+    margin-right:10px;
+    font-size: 12px;
+}
+.super-export-entry-columns .super-entry-column span.sort {
+    width:20px;
+    float:right;
+    margin:0;
+    text-align:center;
+}
+.super-export-entry-columns .super-entry-column span.sort:after {
+    content:'\f047';
+    font-family:'Fontawesome';
+    color: #888888;
+    font-size:14px;
+    display: block;
+    padding-top: 2px;
+}
+.super-export-entry-columns .super-entry-column span.sort {
+    display:none;
+    cursor:pointer;
+}
+.super-export-entry-columns .super-entry-column:hover span.sort {
+    display:block;
+}
+.super-export-entry-columns .super-entry-column input {
+    margin-right:0;
+}
+.super-export-entry-columns .super-entry-column input[type="checkbox"] {
+    height:16px;
+    margin:3px 20px 0px 0px;
+    width:16px;
+}
+.super-export-selected-columns {
+    float:right;
+}
+#super-contact-entry-data .inside table th {
+    vertical-align:top;
+    padding:6px 5px 0px 0px;
+}
+#super-contact-entry-data .inside table .super-contact-entry-data-value a {
+    padding: 5px 5px 0px 0px;
+    display:inline-block;
+}
+#super-contact-entry-data .inside table textarea {
+    resize: both;
+    min-height: 70px;
+    min-width: 300px;
+}

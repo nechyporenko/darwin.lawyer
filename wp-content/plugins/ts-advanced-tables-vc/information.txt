@@ -1,0 +1,46 @@
+Installation:
+-------------
+Depending upon your WordPress upload and post size limits, the plugin file size might be too large to install the plugin via
+WordPress upload routine. In those cases, you either need to increase the upload and post size limits, or upload the plugin
+via FTP directly to your server and then activate it in WordPress. Consult the manual for more information.
+
+Update:
+-------
+To update an existing installation of the plugin, simply upload the extracted plugin folder "ts-advanced-tables-vc" to your
+WordPress "plugins" folder (.../wp-content/plugins) and replace the existing folder with the same name and all files inside of
+that folder with the new version.
+
+
+Manual:
+-------
+http://www.tablenatorvc.krautcoding.com/documentation/
+
+
+
+Contact:
+--------
+http://www.tablenatorvc.krautcoding.com/contact-us/
+
+
+
+Changelog:
+----------
+http://helpdesk.krautcoding.com/changelog-advanced-tables-for-visual-composer/
+
+
+
+Knowledge Base:
+---------------
+http://helpdesk.krautcoding.com/category/advanced-tables-for-visual-composer/
+
+
+
+Support Forum:
+--------------
+http://helpdesk.krautcoding.com/forums/forum/wordpress-plugins/advanced-tables-for-visual-composer/
+
+
+
+CodeCanyon (Purchase):
+----------------------
+https://codecanyon.net/item/tablenator-advanced-tables-for-visual-composer/18560899

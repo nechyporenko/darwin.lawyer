@@ -1,0 +1,218 @@
+@font-face {
+    font-family:                			'socialmedias';
+    src:                        			url('../../fonts/socialmedia-icons/socialmedias.eot?') format('eot'), url('../../fonts/socialmedia-icons/socialmedias.eot?#iefix') format('embedded-opentype'), url('../../fonts/socialmedia-icons/socialmedias.woff') format('woff'), url('../../fonts/socialmedia-icons/socialmedias.ttf') format('truetype'), url('../../fonts/socialmedia-icons/socialmedias.svg#socialmedia') format('svg');
+    font-weight:                			normal;
+    font-style:                 			normal;
+}
+
+[class^="ts-socialmedia-"], [class*=" ts-socialmedia-"] {
+	font-family:							'socialmedias' !important;
+	speak:									none;
+	font-style:								normal;
+	font-weight:							normal;
+	font-variant:							normal;
+	text-transform:							none;
+	line-height:							1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing:					antialiased;
+	-moz-osx-font-smoothing:				grayscale;
+}
+[class^="ts-socialmedia-"]:before,[class*=" ts-socialmedia-"]:before {
+    text-decoration:						inherit;
+    display:								inline-block;
+    speak:									none;
+}
+a [class^="ts-socialmedia-"],a [class*=" ts-socialmedia-"] {
+    display:								inline-block;
+}
+
+.ts-socialmedia-aim:before{content:"\e91d"}
+.ts-socialmedia-aim2:before{content:"\e91c"}
+.ts-socialmedia-amazon:before{content:"\e909"}
+.ts-socialmedia-app8:before{content:"\e600"}
+.ts-socialmedia-apple:before{content:"\e601"}
+.ts-socialmedia-arto:before{content:"\e602"}
+.ts-socialmedia-aws:before{content:"\e603"}
+.ts-socialmedia-baidu:before{content:"\e604"}
+.ts-socialmedia-basecamp:before{content:"\e605"}
+.ts-socialmedia-bebo1:before{content:"\e606"}
+.ts-socialmedia-behance2:before{content:"\e607"}
+.ts-socialmedia-bing1:before{content:"\e608"}
+.ts-socialmedia-black209:before{content:"\e609"}
+.ts-socialmedia-blip:before{content:"\e60a"}
+.ts-socialmedia-blogger7:before{content:"\e60b"}
+.ts-socialmedia-bnter:before{content:"\e60c"}
+.ts-socialmedia-brightkite:before{content:"\e60d"}
+.ts-socialmedia-cinch:before{content:"\e60e"}
+.ts-socialmedia-coroflot:before{content:"\e60f"}
+.ts-socialmedia-creative9:before{content:"\e610"}
+.ts-socialmedia-dailybooth:before{content:"\e611"}
+.ts-socialmedia-delicious5:before{content:"\e612"}
+.ts-socialmedia-designbump:before{content:"\e613"}
+.ts-socialmedia-designfloat:before{content:"\e614"}
+.ts-socialmedia-designmoo:before{content:"\e615"}
+.ts-socialmedia-deviantart4:before{content:"\e616"}
+.ts-socialmedia-digg5:before{content:"\e617"}
+.ts-socialmedia-digg6:before{content:"\e618"}
+.ts-socialmedia-diigo:before{content:"\e619"}
+.ts-socialmedia-dribbble6:before{content:"\e61a"}
+.ts-socialmedia-dropbox15:before{content:"\e61b"}
+.ts-socialmedia-drupal:before{content:"\e61c"}
+.ts-socialmedia-dzone:before{content:"\e61d"}
+.ts-socialmedia-ebay1:before{content:"\e61f"}
+.ts-socialmedia-email1:before{content:"\e902"}
+.ts-socialmedia-email2:before{content:"\e901"}
+.ts-socialmedia-email3:before{content:"\e903"}
+.ts-socialmedia-email4:before{content:"\e904"}
+.ts-socialmedia-ember:before{content:"\e620"}
+.ts-socialmedia-envato:before{content:"\e6c8"}
+.ts-socialmedia-etsy:before{content:"\e621"}
+.ts-socialmedia-evernote2:before{content:"\e622"}
+.ts-socialmedia-facebook29:before{content:"\e623"}
+.ts-socialmedia-facebook30:before{content:"\e624"}
+.ts-socialmedia-facebook31:before{content:"\e625"}
+.ts-socialmedia-factome:before{content:"\e626"}
+.ts-socialmedia-feedburner:before{content:"\e627"}
+.ts-socialmedia-flickr9:before{content:"\e628"}
+.ts-socialmedia-folkd:before{content:"\e629"}
+.ts-socialmedia-formspring:before{content:"\e62a"}
+.ts-socialmedia-forrst1:before{content:"\e62b"}
+.ts-socialmedia-foursquare6:before{content:"\e62c"}
+.ts-socialmedia-friendfeed:before{content:"\e62d"}
+.ts-socialmedia-gdgt:before{content:"\e62e"}
+.ts-socialmedia-github:before{content:"\e90d"}
+.ts-socialmedia-github13:before{content:"\e62f"}
+.ts-socialmedia-github14:before{content:"\e630"}
+.ts-socialmedia-github2:before{content:"\e90c"}
+.ts-socialmedia-github3:before{content:"\e90e"}
+.ts-socialmedia-gmaps:before{content:"\e90a"}
+.ts-socialmedia-goodreads:before{content:"\e631"}
+.ts-socialmedia-google29:before{content:"\e632"}
+.ts-socialmedia-google30:before{content:"\e633"}
+.ts-socialmedia-google33:before{content:"\e634"}
+.ts-socialmedia-googlemail:before{content:"\e91b"}
+.ts-socialmedia-googleplus:before{content:"\e905"}
+.ts-socialmedia-googleplus2:before{content:"\e907"}
+.ts-socialmedia-googleplus3:before{content:"\e906"}
+.ts-socialmedia-gowalla1:before{content:"\e636"}
+.ts-socialmedia-gowalla:before{content:"\e635"}
+.ts-socialmedia-hacker:before{content:"\e637"}
+.ts-socialmedia-heart211:before{content:"\e638"}
+.ts-socialmedia-hi5:before{content:"\e639"}
+.ts-socialmedia-html5:before{content:"\e90b"}
+.ts-socialmedia-hype:before{content:"\e63a"}
+.ts-socialmedia-hyves:before{content:"\e63b"}
+.ts-socialmedia-icq:before{content:"\e63c"}
+.ts-socialmedia-instagram:before{content:"\e90f"}
+.ts-socialmedia-instapaper:before{content:"\e63d"}
+.ts-socialmedia-itunes:before{content:"\e63e"}
+.ts-socialmedia-kik:before{content:"\e63f"}
+.ts-socialmedia-krop:before{content:"\e640"}
+.ts-socialmedia-lastfm:before{content:"\e91a"}
+.ts-socialmedia-lastfm4:before{content:"\e641"}
+.ts-socialmedia-letter26:before{content:"\e642"}
+.ts-socialmedia-link1:before{content:"\e915"}
+.ts-socialmedia-link2:before{content:"\e916"}
+.ts-socialmedia-link3:before{content:"\e918"}
+.ts-socialmedia-linkedin11:before{content:"\e643"}
+.ts-socialmedia-linkedin12:before{content:"\e644"}
+.ts-socialmedia-male157:before{content:"\e645"}
+.ts-socialmedia-meetup:before{content:"\e646"}
+.ts-socialmedia-metacafe:before{content:"\e647"}
+.ts-socialmedia-ming:before{content:"\e648"}
+.ts-socialmedia-mister:before{content:"\e649"}
+.ts-socialmedia-mixx:before{content:"\e64b"}
+.ts-socialmedia-mixx1:before{content:"\e64a"}
+.ts-socialmedia-mobile1:before{content:"\e911"}
+.ts-socialmedia-mobile2:before{content:"\e912"}
+.ts-socialmedia-mobileme:before{content:"\e64c"}
+.ts-socialmedia-msn:before{content:"\e64d"}
+.ts-socialmedia-myspace5:before{content:"\e64e"}
+.ts-socialmedia-myspace6:before{content:"\e64f"}
+.ts-socialmedia-netvibes:before{content:"\e91f"}
+.ts-socialmedia-newsvine:before{content:"\e650"}
+.ts-socialmedia-officialfm:before{content:"\e651"}
+.ts-socialmedia-openid1:before{content:"\e652"}
+.ts-socialmedia-orkut:before{content:"\e653"}
+.ts-socialmedia-pandora:before{content:"\e654"}
+.ts-socialmedia-path2:before{content:"\e655"}
+.ts-socialmedia-paypal:before{content:"\e919"}
+.ts-socialmedia-paypal7:before{content:"\e656"}
+.ts-socialmedia-pencil42:before{content:"\e657"}
+.ts-socialmedia-phone1:before{content:"\e910"}
+.ts-socialmedia-phone2:before{content:"\e914"}
+.ts-socialmedia-phone3:before{content:"\e913"}
+.ts-socialmedia-photobucket:before{content:"\e658"}
+.ts-socialmedia-picasa5:before{content:"\e659"}
+.ts-socialmedia-picasa6:before{content:"\e65a"}
+.ts-socialmedia-pin28:before{content:"\e65b"}
+.ts-socialmedia-ping:before{content:"\e65c"}
+.ts-socialmedia-pingchat:before{content:"\e65d"}
+.ts-socialmedia-pinterest2:before{content:"\e923"}
+.ts-socialmedia-pinterest3:before{content:"\e922"}
+.ts-socialmedia-pinterest:before{content:"\e921"}
+.ts-socialmedia-playstation2:before{content:"\e65e"}
+.ts-socialmedia-plixi:before{content:"\e65f"}
+.ts-socialmedia-plurk:before{content:"\e660"}
+.ts-socialmedia-podcast3:before{content:"\e661"}
+.ts-socialmedia-portfolio:before{content:"\e917"}
+.ts-socialmedia-posterous:before{content:"\e91e"}
+.ts-socialmedia-q1:before{content:"\e662"}
+.ts-socialmedia-qik:before{content:"\e663"}
+.ts-socialmedia-quora:before{content:"\e664"}
+.ts-socialmedia-rdio2:before{content:"\e665"}
+.ts-socialmedia-readernaut:before{content:"\e666"}
+.ts-socialmedia-reddit2:before{content:"\e926"}
+.ts-socialmedia-reddit3:before{content:"\e925"}
+.ts-socialmedia-reddit4:before{content:"\e924"}
+.ts-socialmedia-reddit:before{content:"\e667"}
+.ts-socialmedia-retweet3:before{content:"\e668"}
+.ts-socialmedia-roboto:before{content:"\e669"}
+.ts-socialmedia-rss33:before{content:"\e66a"}
+.ts-socialmedia-scribd:before{content:"\e66b"}
+.ts-socialmedia-sharethis:before{content:"\e66c"}
+.ts-socialmedia-shark:before{content:"\e66d"}
+.ts-socialmedia-simplenote:before{content:"\e66e"}
+.ts-socialmedia-skype12:before{content:"\e66f"}
+.ts-socialmedia-slashdot:before{content:"\e670"}
+.ts-socialmedia-slideshare:before{content:"\e671"}
+.ts-socialmedia-smile3:before{content:"\e672"}
+.ts-socialmedia-smugmug:before{content:"\e673"}
+.ts-socialmedia-socialshare:before{content:"\e908"}
+.ts-socialmedia-soundcloud4:before{content:"\e674"}
+.ts-socialmedia-speech67:before{content:"\e675"}
+.ts-socialmedia-spotify3:before{content:"\e676"}
+.ts-socialmedia-squarespace:before{content:"\e677"}
+.ts-socialmedia-squidoo:before{content:"\e678"}
+.ts-socialmedia-steam4:before{content:"\e679"}
+.ts-socialmedia-stumbleupon9:before{content:"\e67a"}
+.ts-socialmedia-technorati1:before{content:"\e67b"}
+.ts-socialmedia-threewordsme:before{content:"\e67c"}
+.ts-socialmedia-tribenet:before{content:"\e67d"}
+.ts-socialmedia-tripit:before{content:"\e67e"}
+.ts-socialmedia-tumblr12:before{content:"\e67f"}
+.ts-socialmedia-twitter20:before{content:"\e680"}
+.ts-socialmedia-twitter21:before{content:"\e681"}
+.ts-socialmedia-viddler:before{content:"\e682"}
+.ts-socialmedia-vimeo12:before{content:"\e683"}
+.ts-socialmedia-virb:before{content:"\e684"}
+.ts-socialmedia-vkontakte:before{content:"\e900"}
+.ts-socialmedia-w3:before{content:"\e685"}
+.ts-socialmedia-whatsapp:before{content:"\e686"}
+.ts-socialmedia-wikipedia2:before{content:"\e687"}
+.ts-socialmedia-windows26:before{content:"\e688"}
+.ts-socialmedia-wists:before{content:"\e689"}
+.ts-socialmedia-wordpress11:before{content:"\e68a"}
+.ts-socialmedia-wordpress12:before{content:"\e68b"}
+.ts-socialmedia-xing6:before{content:"\e68c"}
+.ts-socialmedia-yahoo4:before{content:"\e68d"}
+.ts-socialmedia-yahoo5:before{content:"\e68e"}
+.ts-socialmedia-yahoo6:before{content:"\e68f"}
+.ts-socialmedia-yahoo7:before{content:"\e920"}
+.ts-socialmedia-yahoo8:before{content:"\e61e"}
+.ts-socialmedia-yelp1:before{content:"\e690"}
+.ts-socialmedia-youtube17:before{content:"\e691"}
+.ts-socialmedia-youtube18:before{content:"\e692"}
+.ts-socialmedia-zerply:before{content:"\e693"}
+.ts-socialmedia-zootool:before{content:"\e694"}
+.ts-socialmedia-zynga:before{content:"\e695"}
