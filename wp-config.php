@@ -18,8 +18,8 @@
  * @package WordPress
  */
 
-define('WP_HOME','http://127.0.0.1/darwin.lawyer.local/');
-define('WP_SITEURL','http://127.0.0.1/darwin.lawyer.local/');
+define('WP_HOME', 'http://'.$_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'http://'.$_SERVER['HTTP_HOST']);
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
@@ -29,7 +29,7 @@ define('DB_NAME', 'darwin_lawyer');
 define('DB_USER', 'root');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'Web#Done3');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
