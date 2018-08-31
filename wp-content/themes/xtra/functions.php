@@ -53,6 +53,7 @@ if ( ! class_exists( 'Codevz' ) ) {
 		 * @var $dir 	= get theme directory path
 		 *
 		 */
+
 		public static $elm_id = 0, $post, $is_woo, $dir, $is_rtl;
 
 		public function __construct() {

@@ -136,8 +136,6 @@ function mpc_get_typography_form() {
 }
 
 /* Get Google webfonts */
-// Add custom font to font settings
-
 function mpc_get_google_webfonts() {
 	if ( ! isset( $_POST[ 'wp_nonce' ] ) ||
 		 ! wp_verify_nonce( $_POST[ 'wp_nonce' ], 'mpc_typography_presets' ) ) {
@@ -274,11 +272,6 @@ function mpc_format_google_webfonts( $fonts ) {
 				'id'       => "Verdana, Geneva, sans-serif",
 				'text'     => "Verdana, Geneva, sans-serif",
 				'variants' => array( 'regular', 'italic', '700', '700italic' ),
-			),
-			array(
-				'id'       => "Futura Book Cyrillic, sans-serif",
-				'text'     => "Futura Book Cyrillic, sans-serif",
-				'variants' => array( 'regular', 'normal', '700', 'bold' ),
 			),
 		),
 	);
