@@ -976,37 +976,37 @@ msgstr "Необхідна версія PHP:"
 msgid "This changeset cannot be further modified."
 msgstr "Цей набір змін не може бути змінений."
 
-#: wp-admin/about.php:373
+#: wp-admin/about.php:371
 msgid "Improvements to Roles and Capabilities"
 msgstr "Покращення ролей і можливостей."
 
-#: wp-admin/about.php:374
+#: wp-admin/about.php:372
 msgid "New capabilities have been introduced that allow granular management of plugins and translation files. In addition, the site switching process in multisite has been fine-tuned to update the available roles and capabilities in a more reliable and coherent way."
 msgstr "Введення нових можливостей дозволяє тонке управління файлами плагінів і перекладів. Додатково, перемикання сайту в режим мережі тепер буде надійно і послідовно оновлювати наявні ролі і можливості."
 
-#: wp-admin/about.php:370
+#: wp-admin/about.php:368
 msgid "WordPress 4.9 includes an upgraded version of MediaElement.js, which removes dependencies on jQuery, improves accessibility, modernizes the UI, and fixes many bugs."
 msgstr "WordPress 4.9 включає оновлену версію MediaElement.js, без залежності від jQuery, покращує допоміжні можливості, модернізує інтерфейс і виправляє безліч помилок."
 
-#: wp-admin/about.php:369
+#: wp-admin/about.php:367
 msgid "MediaElement.js upgraded to 4.2.6"
 msgstr "MediaElement.js оновлений до версії 4.2.6"
 
-#: wp-admin/about.php:366
+#: wp-admin/about.php:364
 msgid "We&#8217;ve introduced a new code editing library, CodeMirror, for use within core. Use it to improve any code writing or editing experiences within your plugins, like CSS or JavaScript include fields."
 msgstr "Для редагування коду ми включили в ядро бібліотеку CodeMirror, використовуйте її для поліпшення написання або редагування будь-якого коду в ваших плагінах, наприклад полів CSS або JavaScript."
 
-#: wp-admin/about.php:365
+#: wp-admin/about.php:363
 msgid "CodeMirror available for use in your themes and plugins"
 msgstr "Редактор CodeMirror доступний для використання у ваших темах і плагінах"
 
 #. translators: %s:
 #. https://make.wordpress.org/core/2017/11/01/improvements-to-the-customize-js-api-in-4-9/
-#: wp-admin/about.php:359
+#: wp-admin/about.php:357
 msgid "We&#8217;ve made numerous improvements to the Customizer JS API in WordPress 4.9, eliminating many pain points and making it just as easy to work with as the PHP API. There are also new base control templates, a date/time control, and section/panel/global notifications to name a few. <a href=\"%s\">Check out the full list.</a>"
 msgstr "У WordPress 4.9 ми внесли безліч поліпшень в JS API інтерфейсу налаштування, усунуто багато хворих місць і тепер стало працювати так просто як і з PHP API. Також введені нові основні шаблони контролю, контроль дати і часу і сповіщення секції/панелі/глобальні, наприклад. <a href=\"%s\">Подивіться повний список.</a>"
 
-#: wp-admin/about.php:355
+#: wp-admin/about.php:353
 msgid "Customizer JS API Improvements"
 msgstr "Покращення в JS API інтерфейсу налаштування"
 
@@ -1014,7 +1014,7 @@ msgstr "Покращення в JS API інтерфейсу налаштуван
 msgid "This data is used to provide general enhancements to WordPress, which includes helping to protect your site by finding and automatically installing new updates. It is also used to calculate statistics, such as those shown on the <a href=\"%s\">WordPress.org stats page</a>."
 msgstr "Ці дані використовуються для загальних покращень WordPress на кшталт допомоги у захисті вашого сайту шляхом пошуку та автоматичного встановлення нових оновлень. Вони також використовуються для розрахунку статистики, такої як на <a href=\"%s\">сторінці статистики WordPress.org</a>."
 
-#: wp-admin/about.php:268
+#: wp-admin/about.php:266
 msgid "When you edit themes and plugins directly, WordPress 4.9 will politely warn you that this is a dangerous practice. It will recommend that you backup your files before saving, so they don&#8217;t get overwritten by the next update. Take the safe route: your future self will thank you. Your team and customers will thank you."
 msgstr "При редагуванні тем чи плагінів безпосередньо, WordPress 4.9 ввічливо попередить вас про те, що це небезпечна практика. Він порекомендує вам створити резервну копію файлів перед збереженням, так щоб вони не були переписані подальшим оновленням. Скористайтеся безпечним шляхом, потім самі собі подякуєте. Ваша команда і клієнти будуть вам вдячні."
 
@@ -1091,52 +1091,52 @@ msgid "Enter the address here if you <a href=\"%s\">want your site home page to 
 msgstr "Якщо ви хочете, щоб адреса сайту <a href=\"%s\">відрізнялась від директорії встановлення WordPress</a>, введіть адресу тут."
 
 #. translators: %s: smiling face with smiling eyes emoji
-#: wp-admin/about.php:348
+#: wp-admin/about.php:346
 msgid "Developer Happiness %s"
 msgstr "Радість розробникам %s"
 
-#: wp-admin/about.php:338
+#: wp-admin/about.php:336
 msgid "https://wordpress.org/plugins/gutenberg/"
 msgstr "https://uk.wordpress.org/plugins/gutenberg/"
 
-#: wp-admin/about.php:337
+#: wp-admin/about.php:335
 msgid "WordPress is working on a new way to create and control your content and we&#8217;d love to have your help. Interested in being an <a href=\"%s\">early tester</a> or getting involved with the Gutenberg project? <a href=\"%s\">Contribute on GitHub</a>."
 msgstr "Команда WordPress працює над новим способом створення та контролю вмісту, і ми хотіли б отримати вашу допомогу. Якщо ви зацікавлені в <a href=\"%s\">тестуванні раннього доступу</a> або хочете долучитись до проекту Gutenberg, ви можете <a href=\"%s\">взяти участь на GitHub</a>."
 
 #. translators: %s: handshake emoji
-#: wp-admin/about.php:331
+#: wp-admin/about.php:329
 msgid "Lend a Hand with Gutenberg %s"
 msgstr "Дайте руку Гутенбергу %s"
 
-#: wp-admin/about.php:306
+#: wp-admin/about.php:304
 msgid "More Reliable Theme Switching"
 msgstr "Надійніше перемикання тем"
 
-#: wp-admin/about.php:298
+#: wp-admin/about.php:296
 msgid "Site Building Improvements"
 msgstr "Покращення побудови сайту"
 
-#: wp-admin/about.php:283
+#: wp-admin/about.php:281
 msgid "The New Gallery Widget"
 msgstr "Новий віджет галереї"
 
-#: wp-admin/about.php:275
+#: wp-admin/about.php:273
 msgid "Even More Widget Updates"
 msgstr "Ще більше оновлень віджетів"
 
-#: wp-admin/about.php:245
+#: wp-admin/about.php:243
 msgid "Coding Enhancements"
 msgstr "Покращення роботи з кодом"
 
-#: wp-admin/about.php:238
+#: wp-admin/about.php:236
 msgid "Were you lured away from your desk before you saved your new draft design? Fear not, when you return, WordPress 4.9 will politely ask whether or not you&#8217;d like to save your unsaved changes."
 msgstr "Відволіклися перед тим як зберегти новий дизайн? Не бійтеся, при поверненні WordPress 4.9 ввічливо запитає, чи хочете ви зберегти раніше незбережені зміни."
 
-#: wp-admin/about.php:237
+#: wp-admin/about.php:235
 msgid "A Prompt to Protect Your Work"
 msgstr "Пропозиція захистити вашу роботу"
 
-#: wp-admin/about.php:230
+#: wp-admin/about.php:228
 msgid "Design Locking To Guard Your Changes"
 msgstr "Фіксація дизайну для охорони ваших змін"
 
@@ -1148,80 +1148,80 @@ msgstr "Ми дуже серйозно ставимося до приватно�
 msgid "From time to time, your WordPress site may send data to WordPress.org &#8212; including, but not limited to &#8212; the version of WordPress you are using, and a list of installed plugins and themes."
 msgstr "Час від часу ваш сайт WordPress може відсилати дані на WordPress.org - що включають, але не обмежуються - версію WordPress, яку ви використовуєте, а також список встановлених плагінів і тем."
 
-#: wp-admin/about.php:314
+#: wp-admin/about.php:312
 msgid "Were you confused by the steps to create a new menu? Perhaps no longer! We&#8217;ve ironed out the UX for a smoother menu creation process. Newly updated copy will guide you."
 msgstr "Створення нового меню ставило вас в глухий кут? Досить! Ми поліпшили досвід взаємодії інтерфейсу для створення меню. Новий варіант оснащений гідом."
 
-#: wp-admin/about.php:313
+#: wp-admin/about.php:311
 msgid "Better Menu Instructions = Less Confusion"
 msgstr "Кращі інструкції створення меню = менше плутанини."
 
-#: wp-admin/about.php:307
+#: wp-admin/about.php:305
 msgid "When you switch themes, widgets sometimes think they can just up and move location. Improvements in WordPress 4.9 offer more persistent menu and widget placement when you decide it&#8217;s time for a new theme. Additionally, you can preview installed themes or download, install, and preview new themes right. Nothing says handy like being able to preview before you deploy. "
 msgstr "При перемиканні тем віджети деколи змінюють своє розміщення. Покращення в WordPress 4.9 забезпечують більш постійне розташування меню та віджетів коли ви вирішите що настав час для нової теми. Крім того, ви можете попередньо переглядати встановлені теми, або завантажувати, встановлювати, та попередньо переглядати нові теми належним чином."
 
-#: wp-admin/about.php:291
+#: wp-admin/about.php:289
 msgid "Want to add media to your text widget? Embed images, video, and audio directly into the widget along with your text, with our simple but useful Add Media button. Woo!"
 msgstr "Хочете додати медіафайли до текстового віджету? Вбудовувати зображення, відео та аудіо безпосередньо в віджет разом з текстом? Використовуйте просту, але корисну кнопку \"Додати медіафайл\". Вау!"
 
-#: wp-admin/about.php:290
+#: wp-admin/about.php:288
 msgid "Press a Button, Add Media"
 msgstr "Натисніть кнопку, додайте медіафайл"
 
-#: wp-admin/about.php:284
+#: wp-admin/about.php:282
 msgid "An incremental improvement to the media changes hatched in WordPress 4.8, you can now add a gallery via widget. Yes!"
 msgstr "Продовження мультимедіа поліпшень початих в WordPress 4.8, тепер можна додати галерею через віджет. Так!"
 
-#: wp-admin/about.php:267
+#: wp-admin/about.php:265
 msgid "Warning: Potential Danger Ahead!"
 msgstr "Увага: попереду потенційна небезпека!"
 
-#: wp-admin/about.php:261
+#: wp-admin/about.php:259
 msgid "The dreaded white screen. You&#8217;ll avoid it when working on themes and plugin code because WordPress 4.9 will warn you about saving an error. You&#8217;ll sleep better at night."
 msgstr "Жахливий білий екран. Ви можете уникнути його при редагуванні коду плагінів і тем, тому що WordPress 4.9 попереджатиме вас про збереження коду з помилкою. Зможете краще спати ночами."
 
-#: wp-admin/about.php:260
+#: wp-admin/about.php:258
 msgid "Sandbox for Safety"
 msgstr "Пісочниця для безпеки"
 
-#: wp-admin/about.php:254
+#: wp-admin/about.php:252
 msgid "You&#8217;ve got a display problem but can&#8217;t quite figure out exactly what went wrong in the CSS you lovingly wrote. With syntax highlighting and error checking for CSS editing and the Custom HTML widget introduced in WordPress 4.8.1, you&#8217;ll pinpoint coding errors quickly. Practically guaranteed to help you scan code more easily and suss out and fix code errors quickly."
 msgstr "Виникла проблема, але ви не можете знайти що ж пішло не так з написаним вами кодом CSS? З підсвічуванням синтаксису та перевіркою на помилки в редакторі CSS, а також віджетом \"Власний HTML\" що з'явився у WordPress 4.8.1 ви зможете швидко знаходити помилки в коді."
 
-#: wp-admin/about.php:253
+#: wp-admin/about.php:251
 msgid "Syntax Highlighting and Error Checking? Yes, Please!"
 msgstr "Виділення синтаксису та перевірка на помилки? Так, будь ласка!"
 
-#: wp-admin/about.php:231
+#: wp-admin/about.php:229
 msgid "Ever encounter a scenario where two designers walk into a project and designer A overrides designer B&#8217;s beautiful changes? WordPress 4.9&#8217;s design lock feature (similar to post locking) secures your draft design so that no one can make changes to it or erase all your hard work."
 msgstr "Ви стикалися з ситуацією коли два дизайнери працюючи над одним проектом переписували зміни внесені один одним? WordPress 4.9 пропонує можливість фіксації оформлення (таку ж як і для записів), ваші чорнові зміни в оформленні будуть у безпеці і ніхто не змінить і не перезапише результати вашої роботи."
 
-#: wp-admin/about.php:224
+#: wp-admin/about.php:222
 msgid "Need to get some feedback on proposed site design changes? WordPress 4.9 gives you a preview link you can send to your team and customers so that you can collect and integrate feedback before you schedule the changes to go live. Can we say collaboration&#43;&#43;?"
 msgstr "Потрібно отримати відгук щодо запропонованих змін оформлення сайту? WordPress 4.9 може створити посилання для попереднього перегляду, яке ви можете дати вашій команді та клієнтам для збору відгуків перед тим, як ви застосуєте зміни для сайту. Чи можна говорити про співпрацю&#43;&#43;?"
 
-#: wp-admin/about.php:223
+#: wp-admin/about.php:221
 msgid "Collaborate with Design Preview Links"
 msgstr "Співпрацюйте з посиланнями попереднього перегляду вигляду"
 
-#: wp-admin/about.php:217
+#: wp-admin/about.php:215
 msgid "Yes, you read that right. Just like you can draft and revise posts and schedule them to go live on the date and time you choose, you can now tinker with your site&#8217;s design and schedule those design changes to go live as you please."
 msgstr "Все вірно, тепер можна створювати чернетки, планувати зміни на потрібний час і використовувати редакції оформлення сайту точно так, як і для записів."
 
-#: wp-admin/about.php:208
+#: wp-admin/about.php:206
 msgid "Customizer Workflow Improved"
 msgstr "Поліпшення інтерфейсу налаштування"
 
-#: wp-admin/about.php:216
+#: wp-admin/about.php:214
 msgid "Draft and Schedule Site Design Customizations"
 msgstr "Чернетки та відкладення змін вигляду сайту"
 
-#: wp-admin/about.php:195
+#: wp-admin/about.php:193
 msgid "Welcome to an improved Customizer workflow with design drafts, locking, scheduling, and preview links. What&#8217;s more, code syntax highlighting and error checking will make for a clean and smooth site building experience. Finally, if all that wasn&#8217;t pretty great, we&#8217;ve got a great new Gallery widget and improvements to theme browsing and switching."
 msgstr "Зустрічайте покращений робочий процес Налаштовувача з чернетками дизайну, фіксацією, плануванням і посиланнями для попереднього перегляду. Навіть більше, підсвічування синтаксису коду та перевірка на помилки зроблять процес побудови сайту простішим і приємнішим. І наостанок, якщо вам мало перерахованого, є чудовий новий віджет галереї та покращення огляду та перемикання тем."
 
 #. translators: %s: party popper emoji
-#: wp-admin/about.php:190
+#: wp-admin/about.php:188
 msgid "Major Customizer Improvements, Code Error Checking, and More! %s"
 msgstr "Значні покращення Налаштовувача, перевірка коду на помилки, і не тільки! %s"
 
@@ -2661,7 +2661,7 @@ msgid "(Currently set to: %s)"
 msgstr "(Наразі встановлено: %s)"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:501
+#: wp-admin/about.php:499
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "У <strong>версії %s</strong> виправлено одну проблему безпеки."
 
@@ -2683,15 +2683,15 @@ msgstr "Ви можете змінити забраження свого обл�
 msgid "Profile Picture"
 msgstr "Зображення облікового запису"
 
-#: wp-admin/about.php:492
+#: wp-admin/about.php:490
 msgid "Maintenance Releases"
 msgstr "Випуски обслуговування"
 
-#: wp-admin/about.php:495
+#: wp-admin/about.php:493
 msgid "Security Releases"
 msgstr "Випуски безпеки"
 
-#: wp-admin/about.php:35 wp-admin/about.php:498
+#: wp-admin/about.php:35 wp-admin/about.php:496
 msgid "Maintenance and Security Releases"
 msgstr "Випуски обслуговування та безпеки"
 
@@ -6527,7 +6527,7 @@ msgstr "Показувати панель інструментів при пер
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:510
+#: wp-admin/about.php:508
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "У <strong>версії %1$s</strong> виправлено проблему безпеки та %2$s помилку."
@@ -6535,8 +6535,8 @@ msgstr[1] "У <strong>версії %1$s</strong> виправлено пробл
 msgstr[2] "У <strong>версії %1$s</strong> виправлено проблему безпеки та %2$s помилок."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:40 wp-admin/about.php:78 wp-admin/about.php:114
-#: wp-admin/about.php:132 wp-admin/about.php:506
+#: wp-admin/about.php:40 wp-admin/about.php:76 wp-admin/about.php:112
+#: wp-admin/about.php:130 wp-admin/about.php:504
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "У <strong>версії %1$s</strong> виправлено %2$s помилку."
@@ -6544,17 +6544,17 @@ msgstr[1] "У <strong>версії %1$s</strong> виправлено %2$s по�
 msgstr[2] "У <strong>версії %1$s</strong> виправлено %2$s помилок."
 
 #. translators: %s: Codex URL
-#: wp-admin/about.php:51 wp-admin/about.php:71 wp-admin/about.php:89
-#: wp-admin/about.php:107 wp-admin/about.php:125 wp-admin/about.php:143
-#: wp-admin/about.php:161 wp-admin/about.php:179 wp-admin/about.php:518
+#: wp-admin/about.php:51 wp-admin/about.php:69 wp-admin/about.php:87
+#: wp-admin/about.php:105 wp-admin/about.php:123 wp-admin/about.php:141
+#: wp-admin/about.php:159 wp-admin/about.php:177 wp-admin/about.php:516
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Більше інформації можна отримати з <a href=\"%s\">деталей випуску</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:60 wp-admin/about.php:96 wp-admin/about.php:150
-#: wp-admin/about.php:168 wp-admin/about.php:514
+#: wp-admin/about.php:58 wp-admin/about.php:94 wp-admin/about.php:148
+#: wp-admin/about.php:166 wp-admin/about.php:512
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "У <strong>версії %1$s</strong> вирішені кілька проблем з безпекою і виправлена %2$s помилка."
@@ -6570,19 +6570,19 @@ msgid "What&#8217;s New"
 msgstr "Що нового"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:503
+#: wp-admin/about.php:501
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "У <strong>версії %s</strong> виправлено декілька проблем безпеки."
 
-#: wp-admin/about.php:497
+#: wp-admin/about.php:495
 msgid "Maintenance and Security Release"
 msgstr "Випуск обслуговування та безпеки"
 
-#: wp-admin/about.php:494
+#: wp-admin/about.php:492
 msgid "Security Release"
 msgstr "Випуск безпеки"
 
-#: wp-admin/about.php:491
+#: wp-admin/about.php:489
 msgid "Maintenance Release"
 msgstr "Випуск обслуговування"
 
@@ -6590,7 +6590,7 @@ msgstr "Випуск обслуговування"
 msgid "This screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "Цей розділ дозволяє вам обирати структуру постійних посилань. Ви можете обрати один із запропонованих варіантів, або створити користувацьку структуру URL."
 
-#: wp-admin/about.php:384
+#: wp-admin/about.php:382
 msgid "Return to Updates"
 msgstr "Повернутися до поновлень"
 
@@ -6866,11 +6866,11 @@ msgstr "Оскільки це мережа сайтів, можна додава
 msgid "Welcome to WordPress %s"
 msgstr "Ласкаво просимо до WordPress %s"
 
-#: wp-admin/about.php:384
+#: wp-admin/about.php:382
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Повернутися до \"Майстерні\" &rarr; \"Оновлення\""
 
-#: wp-admin/about.php:387
+#: wp-admin/about.php:385
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Перейти до \"Майстерні\" &rarr; \"Домашня сторінка\""
 
@@ -8698,7 +8698,7 @@ msgstr[0] "Вкраплення <span class=\"count\">(%s)</span>"
 msgstr[1] "Вкраплення <span class=\"count\">(%s)</span>"
 msgstr[2] "Вкраплення <span class=\"count\">(%s)</span>"
 
-#: wp-admin/about.php:387
+#: wp-admin/about.php:385
 msgid "Go to Dashboard"
 msgstr "Перейти до майстерні"
 

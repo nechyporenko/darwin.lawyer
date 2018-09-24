@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-07-18 11:18:17+0000\n"
+"PO-Revision-Date: 2018-09-18 07:42:01+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,6 +35,18 @@ msgstr " "
 #: wp-includes/class-wp-locale.php:220
 msgid "number_format_decimal_point"
 msgstr ","
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:272
+msgid "The offset number requested is larger than or equal to the number of available revisions."
+msgstr "Запитаний номер зміщення більший або дорівнює кількості доступних редакцій."
+
+#: wp-includes/user.php:3395
+msgid "Unable to send personal data export confirmation email."
+msgstr "Неможливо надіслати електронний лист підтвердження експорту персональних даних."
+
+#: wp-includes/user.php:3289
+msgid "Invalid user request."
+msgstr "Невірний запит користувача."
 
 #. translators: 1: Site name. 2: Name of the confirmed action.
 #: wp-includes/user.php:2978
@@ -180,7 +192,7 @@ msgstr ""
 
 #. translators: Privacy data request subject. 1: Site name, 2: Name of the
 #. action
-#: wp-includes/user.php:3357
+#: wp-includes/user.php:3366
 msgid "[%1$s] Confirm Action: %2$s"
 msgstr "[%1$s] Підтвердити дію: %2$s"
 
@@ -256,11 +268,11 @@ msgstr "Файл експорту особистих даних не створ�
 msgid "User action confirmed."
 msgstr "Дію користувача підтверджено."
 
-#: wp-includes/user.php:3433
+#: wp-includes/user.php:3452
 msgid "This link has expired."
 msgstr "Термін дії цього посилання закінчився."
 
-#: wp-includes/user.php:3289 wp-includes/user.php:3429 wp-login.php:845
+#: wp-includes/user.php:3448 wp-login.php:845
 msgid "Invalid request."
 msgstr "Невірний запит."
 
@@ -304,7 +316,7 @@ msgid "[deleted]"
 msgstr "[видалено]"
 
 #. translators: %d: Comment ID
-#: wp-includes/comment.php:3359
+#: wp-includes/comment.php:3363
 msgid "Comment %d contains personal data but could not be anonymized."
 msgstr "Коментар %d містить особисті дані, але не може бути анонімним."
 
@@ -312,17 +324,17 @@ msgstr "Коментар %d містить особисті дані, але н�
 msgid "Action has been confirmed."
 msgstr "Дію підтверджено."
 
-#: wp-includes/user.php:3471
+#: wp-includes/user.php:3490
 msgid "The confirmation email has expired."
 msgstr "Термін дії електронного листа для підтвердження минув."
 
-#: wp-includes/user.php:3453
+#: wp-includes/user.php:3472
 msgid "Invalid action"
 msgstr "Невірна дія"
 
 #. translators: Do not translate DESCRIPTION, CONFIRM_URL, SITENAME, SITEURL:
 #. those are placeholders.
-#: wp-includes/user.php:3306
+#: wp-includes/user.php:3315
 msgid ""
 "Howdy,\n"
 "\n"
@@ -408,39 +420,39 @@ msgctxt "request status"
 msgid "Pending"
 msgstr "В очікуванні"
 
-#: wp-includes/comment.php:3215
+#: wp-includes/comment.php:3219
 msgid "Comment URL"
 msgstr "URL коментаря"
 
-#: wp-includes/comment.php:3214
+#: wp-includes/comment.php:3218
 msgid "Comment Content"
 msgstr "Вміст коментаря"
 
-#: wp-includes/comment.php:3213
+#: wp-includes/comment.php:3217
 msgid "Comment Date"
 msgstr "Дата коментаря"
 
-#: wp-includes/comment.php:3212
+#: wp-includes/comment.php:3216
 msgid "Comment Author User Agent"
 msgstr "User Agent автора коментаря"
 
-#: wp-includes/comment.php:3211
+#: wp-includes/comment.php:3215
 msgid "Comment Author IP"
 msgstr "IP автора коментаря"
 
-#: wp-includes/comment.php:3210
+#: wp-includes/comment.php:3214
 msgid "Comment Author URL"
 msgstr "URL автора коментаря"
 
-#: wp-includes/comment.php:3209
+#: wp-includes/comment.php:3213
 msgid "Comment Author Email"
 msgstr "E-mail автора коментаря"
 
-#: wp-includes/comment.php:3208
+#: wp-includes/comment.php:3212
 msgid "Comment Author"
 msgstr "Автор коментаря"
 
-#: wp-includes/comment.php:3173 wp-includes/comment.php:3282
+#: wp-includes/comment.php:3177 wp-includes/comment.php:3286
 msgid "WordPress Comments"
 msgstr "Коментарі WordPress"
 
@@ -478,16 +490,16 @@ msgid "Something went wrong."
 msgstr "Щось пішло не так."
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:3970
+#: wp-includes/class-wp-customize-manager.php:3973
 msgid "%s is already customizing this changeset. Do you want to take over?"
 msgstr "Користувач %s вже редагує цей набір змін. Хочете перехопити?"
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:3968
+#: wp-includes/class-wp-customize-manager.php:3971
 msgid "%s is already customizing this changeset. Please wait until they are done to try customizing. Your latest changes have been autosaved."
 msgstr "Користувач %s вже редагує цей набір змін. Будь ласка, зачекайте поки зміни буде внесено щоби редагувати. Ваші останні зміни збережено."
 
-#: wp-includes/class-wp-customize-manager.php:4172
+#: wp-includes/class-wp-customize-manager.php:4175
 msgid "Update anyway, even though it might break your site?"
 msgstr "Все одно оновити, навіть якщо це може зламати ваш сайт?"
 
@@ -540,7 +552,7 @@ msgctxt "post action/button label"
 msgid "Schedule"
 msgstr "Відкласти"
 
-#: wp-includes/class-wp-customize-manager.php:4627
+#: wp-includes/class-wp-customize-manager.php:4630
 #: wp-includes/script-loader.php:554
 msgctxt "customizer changeset action/button label"
 msgid "Schedule"
@@ -574,33 +586,33 @@ msgstr "Користувач %s перехопив налаштування і �
 msgid "Looks like something&#8217;s gone wrong. Wait a couple seconds, and then try again."
 msgstr "Схоже щось пішло не так. Зачекайте пару секунд і спробуйте знову."
 
-#: wp-includes/class-wp-customize-manager.php:4158
+#: wp-includes/class-wp-customize-manager.php:4161
 msgid "Take over"
 msgstr "Перехопити"
 
-#: wp-includes/class-wp-customize-manager.php:4154
+#: wp-includes/class-wp-customize-manager.php:4157
 msgid "Go back"
 msgstr "Назад"
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:3975
+#: wp-includes/class-wp-customize-manager.php:3978
 msgid "%s is already customizing this site. Please wait until they are done to try customizing. Your latest changes have been autosaved."
 msgstr "Користувач %s вже налаштовує цей сайт. Будь ласка зачекайте поки він закінчить. Ваші останні зміни були автоматично збережені."
 
 #. translators: %s: User who is customizing the changeset in customizer.
-#: wp-includes/class-wp-customize-manager.php:3977
+#: wp-includes/class-wp-customize-manager.php:3980
 msgid "%s is already customizing this site. Do you want to take over?"
 msgstr "Користувач %s вже налаштовує цей сайт. Хочете перехопити?"
 
-#: wp-includes/class-wp-customize-manager.php:3228
+#: wp-includes/class-wp-customize-manager.php:3231
 msgid "Sorry, you are not allowed to take over."
 msgstr "На жаль, вам не дозволено перехоплювати."
 
-#: wp-includes/class-wp-customize-manager.php:3221
+#: wp-includes/class-wp-customize-manager.php:3224
 msgid "No changeset found to take over"
 msgstr "Не знайдено змін для перехоплення."
 
-#: wp-includes/class-wp-customize-manager.php:3212
+#: wp-includes/class-wp-customize-manager.php:3215
 msgid "Security check failed."
 msgstr "Перевірка безпеки не вдалася."
 
@@ -642,11 +654,11 @@ msgctxt "menu locations"
 msgid "View All Locations"
 msgstr "Переглянути всі розміщення"
 
-#: wp-includes/class-wp-customize-manager.php:4828
+#: wp-includes/class-wp-customize-manager.php:4831
 msgid "While previewing a new theme, you can continue to tailor things like widgets and menus, and explore theme-specific options."
 msgstr "Під час попереднього перегляду нової теми ви можете продовжувати налаштовувати речі на кшталт віджетів та меню, а також досліджувати специфічні параметри теми."
 
-#: wp-includes/class-wp-customize-manager.php:4827
+#: wp-includes/class-wp-customize-manager.php:4830
 msgid "Looking for a theme? You can search or browse the WordPress.org theme directory, install and preview themes, then activate them right here."
 msgstr "Шукаєте тему? Ви можете шукати чи оглядати директорію тем WordPress.org, встановлювати та попередньо переглядати теми, а тоді активувати їх прямо тут."
 
@@ -654,7 +666,7 @@ msgstr "Шукаєте тему? Ви можете шукати чи огляд�
 msgid "Something went wrong. Your change may not have been saved. Please try again. There is also a chance that you may need to manually fix and upload the file over FTP."
 msgstr "Щось пішло не так. Ваші зміни могли бути не збережені. Будь ласка, спробуйте знову. Існує ймовірність, що вам буде потрібно вручну скоригувати та завантажити файл через FTP."
 
-#: wp-includes/class-wp-customize-manager.php:5282
+#: wp-includes/class-wp-customize-manager.php:5285
 msgid "Screen reader users: when in forms mode, you may need to press the escape key twice."
 msgstr "Користувачам програм читання з екрану: в режимі форм вам можливо потрібно буде натиснути кнопку Esc двічі."
 
@@ -1443,13 +1455,13 @@ msgstr[2] "Ваша тема може відображати меню в %s ро
 msgid "Your theme can display menus in one location."
 msgstr "Ваша тема може відображати меню в одному розміщенні."
 
-#: wp-includes/class-wp-customize-manager.php:5318
+#: wp-includes/class-wp-customize-manager.php:5321
 msgid "CSS code"
 msgstr "Код CSS"
 
 #. translators: 1: link to user profile, 2: additional link attributes, 3:
 #. accessibility text
-#: wp-includes/class-wp-customize-manager.php:5289
+#: wp-includes/class-wp-customize-manager.php:5292
 #: wp-includes/widgets/class-wp-widget-custom-html.php:299
 msgid "The edit field automatically highlights code syntax. You can disable this in your <a href=\"%1$s\" %2$s>user profile%3$s</a> to work in plain text mode."
 msgstr "Поле редагування автоматично виділяє синтаксис коду. Ви можете вимкнути це у вашому <a href=\"%1$s\" %2$s>обліковому записі%3$s</a> щоби працювати в режимі простого тексту."
@@ -1458,51 +1470,51 @@ msgstr "Поле редагування автоматично виділяє с
 msgid "Screen reader users: when in forms mode, you may need to press the Esc key twice."
 msgstr "Для користувачів читача екрану: в режимі форм вам може бути потрібно натиснути клавішу Esc двічі."
 
-#: wp-includes/class-wp-customize-manager.php:5281
+#: wp-includes/class-wp-customize-manager.php:5284
 #: wp-includes/widgets/class-wp-widget-custom-html.php:312
 msgid "To move away from this area, press the Esc key followed by the Tab key."
 msgstr "Щоби вийти з цієї області, натисніть клавішу Esc, потім клавішу Tab."
 
-#: wp-includes/class-wp-customize-manager.php:5280
+#: wp-includes/class-wp-customize-manager.php:5283
 #: wp-includes/widgets/class-wp-widget-custom-html.php:311
 msgid "In the editing area, the Tab key enters a tab character."
 msgstr "В області редагування, клавіша Tab вводить символ табуляції."
 
-#: wp-includes/class-wp-customize-manager.php:5278
+#: wp-includes/class-wp-customize-manager.php:5281
 #: wp-includes/widgets/class-wp-widget-custom-html.php:309
 msgid "When using a keyboard to navigate:"
 msgstr "Коли використовується клавіатура для навігації:"
 
-#: wp-includes/class-wp-customize-manager.php:5268
+#: wp-includes/class-wp-customize-manager.php:5271
 msgid "Add your own CSS code here to customize the appearance and layout of your site."
 msgstr "Тут можна додати свій власний код CSS щоби змінити вигляд сайту."
 
-#: wp-includes/class-wp-customize-manager.php:5233
+#: wp-includes/class-wp-customize-manager.php:5236
 msgid "Your homepage displays"
 msgstr "Ваша домашня сторінка відображає"
 
-#: wp-includes/class-wp-customize-manager.php:5222
+#: wp-includes/class-wp-customize-manager.php:5225
 msgid "You can choose what&#8217;s displayed on the homepage of your site. It can be posts in reverse chronological order (classic blog), or a fixed/static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed."
 msgstr "Ви можете вибрати те, що відображається на головній сторінці вашого сайту. Це можуть бути записи в зворотному хронологічному порядку (класичний блог) або постійна/статична сторінка. Щоб встановити статичну головну сторінку, вам потрібно створити дві сторінки. Одна стане головною сторінкою, на другій будуть відображатися ваші записи."
 
-#: wp-includes/class-wp-customize-manager.php:5220
+#: wp-includes/class-wp-customize-manager.php:5223
 msgid "Homepage Settings"
 msgstr "Налаштування домашньої сторінки"
 
 #. translators: %s: site icon size in pixels
-#: wp-includes/class-wp-customize-manager.php:4914
+#: wp-includes/class-wp-customize-manager.php:4917
 msgid "Site Icons should be square and at least %s pixels."
 msgstr "Значки сайту повинні бути квадратними і як мінімум розміром в %s пікселів."
 
-#: wp-includes/class-wp-customize-manager.php:4912
+#: wp-includes/class-wp-customize-manager.php:4915
 msgid "Site Icons are what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. Upload one here!"
 msgstr "Значки сайту - те що ви бачите на вкладках браузера, панелях закладок і всередині мобільних додатків WordPress. Завантажте їх тут!"
 
-#: wp-includes/class-wp-customize-manager.php:4844
+#: wp-includes/class-wp-customize-manager.php:4847
 msgid "WordPress.org themes"
 msgstr "Теми WordPress.org"
 
-#: wp-includes/class-wp-customize-manager.php:4835
+#: wp-includes/class-wp-customize-manager.php:4838
 msgid "Installed themes"
 msgstr "Встановлені теми"
 
@@ -1510,40 +1522,40 @@ msgstr "Встановлені теми"
 msgid "Publish Settings"
 msgstr "Налаштування публікування"
 
-#: wp-includes/class-wp-customize-manager.php:4202
+#: wp-includes/class-wp-customize-manager.php:4205
 msgid "Copied"
 msgstr "Скопійовано"
 
-#: wp-includes/class-wp-customize-manager.php:4196
+#: wp-includes/class-wp-customize-manager.php:4199
 msgid "Preview Link"
 msgstr "Посилання на попередній перегляд"
 
-#: wp-includes/class-wp-customize-manager.php:4193
+#: wp-includes/class-wp-customize-manager.php:4196
 msgid "See how changes would look live on your website, and share the preview with people who can't access the Customizer."
 msgstr "Подивіться як зміни будуть наживо виглядати на вашому сайті і поділіться попереднім переглядом з тими, у кого немає доступу до налаштувань."
 
-#: wp-includes/class-wp-customize-manager.php:4191
+#: wp-includes/class-wp-customize-manager.php:4194
 msgid "Share Preview Link"
 msgstr "Поділитися посиланням на попередній перегляд"
 
-#: wp-includes/class-wp-customize-manager.php:3042
+#: wp-includes/class-wp-customize-manager.php:3045
 msgid "Changes trashed successfully."
 msgstr "Зміни переміщені до кошика успішно."
 
-#: wp-includes/class-wp-customize-manager.php:3027
+#: wp-includes/class-wp-customize-manager.php:3030
 msgid "Changes have already been trashed."
 msgstr "Зміни були вже видалені в корзину."
 
-#: wp-includes/class-wp-customize-manager.php:3021
-#: wp-includes/class-wp-customize-manager.php:3037
+#: wp-includes/class-wp-customize-manager.php:3024
+#: wp-includes/class-wp-customize-manager.php:3040
 msgid "Unable to trash changes."
 msgstr "Неможливо видалити зміни в кошик."
 
-#: wp-includes/class-wp-customize-manager.php:3012
+#: wp-includes/class-wp-customize-manager.php:3015
 msgid "No changes saved yet, so there is nothing to trash."
 msgstr "Ніяких змін не було збережено, тому нічого видаляти."
 
-#: wp-includes/class-wp-customize-manager.php:3004
+#: wp-includes/class-wp-customize-manager.php:3007
 msgid "There was an authentication problem. Please reload and try again."
 msgstr "Виникла проблема з авторизацією. Будь ласка перезавантажте і спробуйте знову."
 
@@ -1984,10 +1996,12 @@ msgid "Limit result set to terms with one or more specific slugs."
 msgstr "Обмежити вибірку групами з певними слаґами (одним або більше)."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:329
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:274
 msgid "The page number requested is larger than the number of pages available."
 msgstr "Номер запитаної сторінки перевищує кількість наявних сторінок."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:157
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:207
 msgid "You need to define an include parameter to order by include."
 msgstr "Потрібно визначити параметр включення в порядок включення."
 
@@ -2074,7 +2088,7 @@ msgstr "Пропонований розмір зображення: %1$s на %2
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr "На жаль, цей тип файлу неприпустимий з міркувань безпеки."
 
-#: wp-includes/comment.php:3066
+#: wp-includes/comment.php:3070
 msgid "Sorry, comments are not allowed for this item."
 msgstr "На жаль, коментарі для цього елемента не дозволені."
 
@@ -2747,7 +2761,7 @@ msgstr "Приховати управління"
 msgid "Document Preview"
 msgstr "Перегляд документа"
 
-#: wp-includes/class-wp-customize-manager.php:5003
+#: wp-includes/class-wp-customize-manager.php:5006
 msgid "Header Media"
 msgstr "Медіафайл заголовку"
 
@@ -2781,7 +2795,7 @@ msgstr "HTML підпис для вкладення, перетворений д
 msgid "Caption for the attachment, as it exists in the database."
 msgstr "Підпис для вкладення, як воно існує в базі даних."
 
-#: wp-includes/class-wp-customize-manager.php:5665
+#: wp-includes/class-wp-customize-manager.php:5668
 msgid "Please enter a valid YouTube URL."
 msgstr "Будь ласка, введіть правильний URL YouTube."
 
@@ -2804,7 +2818,7 @@ msgid "Terms do not support trashing. Set '%s' to delete."
 msgstr "Групи не можна перемістити до кошика. Встановіть '%s' щоби видалити."
 
 #. translators: %s: force=true
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:292
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:400
 msgid "Revisions do not support trashing. Set '%s' to delete."
 msgstr "Редакції не можна перемістити до кошика. Встановіть '%s' щоби видалити."
 
@@ -2818,7 +2832,7 @@ msgstr "Запис не можна перемістити до кошика. В�
 msgid "The comment does not support trashing. Set '%s' to delete."
 msgstr "Коментар не можна перемістити до кошика. Встановіть '%s' щоби видалити."
 
-#: wp-includes/class-wp-customize-manager.php:5088
+#: wp-includes/class-wp-customize-manager.php:5091
 msgid "Or, enter a YouTube URL:"
 msgstr "Або введіть URL YouTube:"
 
@@ -2872,7 +2886,7 @@ msgstr "На жаль, зворотні посилання для цього о�
 msgid "I really need an ID for this to work."
 msgstr "Мені потрібен ID, щоб це спрацювало."
 
-#: wp-includes/class-wp-customize-manager.php:5248
+#: wp-includes/class-wp-customize-manager.php:5251
 msgid "Homepage"
 msgstr "Домашня сторінка"
 
@@ -3082,6 +3096,7 @@ msgstr "Обмежити вибірку елементами з певними �
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1405
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2331
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:708
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:924
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1338
 msgid "Offset the result set by a specific number of items."
@@ -3153,7 +3168,7 @@ msgid "The excerpt for the object."
 msgstr "Уривок об'єкта."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2025
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:460
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:603
 msgid "The ID for the author of the object."
 msgstr "ID автора об'єкта."
 
@@ -3182,17 +3197,17 @@ msgid "A named status for the object."
 msgstr "Іменований статус для об'єкта."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1878
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:504
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:647
 msgid "An alphanumeric identifier for the object unique to its type."
 msgstr "Буквено-цифровий ідентифікатор для об'єкта унікальний для його типу."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1871
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:493
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:636
 msgid "The date the object was last modified, as GMT."
 msgstr "Дата останньої зміни об'єкта, в GMT."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1864
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:487
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:630
 msgid "The date the object was last modified, in the site's timezone."
 msgstr "Дата останньої зміни об'єкта, по часовій зоні сайту."
 
@@ -3201,7 +3216,7 @@ msgid "GUID for the object, transformed for display."
 msgstr "GUID для об'єкта, перетворений для показу."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1837
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:477
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:620
 msgid "GUID for the object, as it exists in the database."
 msgstr "GUID для об'єкта, як він існує в базі даних."
 
@@ -3211,13 +3226,13 @@ msgstr "Глобальний унікальний ідентифікатор д�
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1270
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1825
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:471
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:614
 msgid "The date the object was published, as GMT."
 msgstr "Час публікації об'єкта, по GMT."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1264
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1819
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:465
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:608
 msgid "The date the object was published, in the site's timezone."
 msgstr "Дата публікації об'єкта, по часовій зоні сайту."
 
@@ -3265,6 +3280,7 @@ msgid "Incorrect post password."
 msgstr "Неправильний пароль до запису."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:152
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:202
 msgid "You need to define a search term to order by relevance."
 msgstr "Вам потрібно визначити умови пошуку в порядку релевантності."
 
@@ -3367,12 +3383,14 @@ msgstr "Обмежити вибірку коментарями з певними
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1420
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2343
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:720
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1351
 msgid "Sort collection by object attribute."
 msgstr "Сортувати колекцію по атрибуту об'єкта."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1410
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2336
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:713
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:930
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1344
 msgid "Order sort attribute ascending or descending."
@@ -3380,6 +3398,7 @@ msgstr "Впорядкувати сортування атрибута за зр
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1396
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2315
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:699
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:914
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1329
 msgid "Limit result set to specific IDs."
@@ -3387,6 +3406,7 @@ msgstr "Обмежити вибірку певними ідентифікато�
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1387
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:2306
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:690
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:905
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:1320
 msgid "Ensure result set excludes specific IDs."
@@ -3438,7 +3458,7 @@ msgstr "ID асоційованого об'єкта запису."
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1909
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:71
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:87
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:499
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:642
 msgid "The ID for the parent of the object."
 msgstr "Ідентифікатор предка об'єкта."
 
@@ -3491,7 +3511,7 @@ msgstr "Ідентифікатор об'єкта користувача, якщ�
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:89
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1851
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:91
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:482
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:625
 msgid "Unique identifier for the object."
 msgstr "Унікальний ідентифікатор для об'єкта."
 
@@ -3527,7 +3547,7 @@ msgstr "Створення коментаря вимагає вказати пр
 msgid "Cannot create existing comment."
 msgstr "Не можна створити вже наявний коментар."
 
-#: wp-includes/comment.php:3117
+#: wp-includes/comment.php:3121
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:395
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:412
 msgid "Sorry, you must be logged in to comment."
@@ -3887,122 +3907,122 @@ msgid "Post"
 msgstr "Запис"
 
 #. translators: 1: .mp4, 2: .mov
-#: wp-includes/class-wp-customize-manager.php:5641
+#: wp-includes/class-wp-customize-manager.php:5644
 msgid "Only %1$s or %2$s files may be used for header video. Please convert your video file and try again, or, upload your video to YouTube and link it with the option below."
 msgstr "Тільки файли %1$s або %2$s можуть бути використані як відео заголовка. Будь ласка, конвертуйте ваш відеоролик і спробуйте знову, або завантажте його на YouTube і дайте посилання за допомогою налаштування нижче."
 
-#: wp-includes/class-wp-customize-manager.php:5635
+#: wp-includes/class-wp-customize-manager.php:5638
 msgid "This video file is too large to use as a header video. Try a shorter video or optimize the compression settings and re-upload a file that is less than 8MB. Or, upload your video to YouTube and link it with the option below."
 msgstr "Відеофайл занадто великий для використання в якості відео заголовка. Спробуйте більш короткий відеоролик або оптимізуйте налаштування стиснення і завантажте заново файл розміром менше 8 МБ. Або завантажте відео на YouTube і використайте посилання в налаштуваннях нижче."
 
-#: wp-includes/class-wp-customize-manager.php:5595
+#: wp-includes/class-wp-customize-manager.php:5598
 msgid "Unrecognized background setting."
 msgstr "Нерозпізнані налаштування фону."
 
-#: wp-includes/class-wp-customize-manager.php:5586
-#: wp-includes/class-wp-customize-manager.php:5590
+#: wp-includes/class-wp-customize-manager.php:5589
+#: wp-includes/class-wp-customize-manager.php:5593
 msgid "Invalid value for background size."
 msgstr "Некоректне значення для розміру фону."
 
-#: wp-includes/class-wp-customize-manager.php:5582
+#: wp-includes/class-wp-customize-manager.php:5585
 msgid "Invalid value for background position Y."
 msgstr "Некоректне значення для позиції фону Y."
 
-#: wp-includes/class-wp-customize-manager.php:5578
+#: wp-includes/class-wp-customize-manager.php:5581
 msgid "Invalid value for background position X."
 msgstr "Некоректне значення для позиції фону X."
 
-#: wp-includes/class-wp-customize-manager.php:5574
+#: wp-includes/class-wp-customize-manager.php:5577
 msgid "Invalid value for background attachment."
 msgstr "Некоректне значення для вкладення фону."
 
-#: wp-includes/class-wp-customize-manager.php:5570
+#: wp-includes/class-wp-customize-manager.php:5573
 msgid "Invalid value for background repeat."
 msgstr "Некоректне значення для повтору фону."
 
 #. translators: accessibility text
-#: wp-includes/class-wp-customize-manager.php:4199
-#: wp-includes/class-wp-customize-manager.php:5274
-#: wp-includes/class-wp-customize-manager.php:5294
+#: wp-includes/class-wp-customize-manager.php:4202
+#: wp-includes/class-wp-customize-manager.php:5277
+#: wp-includes/class-wp-customize-manager.php:5297
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:56
 #: wp-includes/widgets/class-wp-widget-custom-html.php:304
 msgid "(opens in a new window)"
 msgstr "(відкриється в новому вікні)"
 
-#: wp-includes/class-wp-customize-manager.php:5272
+#: wp-includes/class-wp-customize-manager.php:5275
 msgid "Learn more about CSS"
 msgstr "Дізнатися більше про CSS"
 
-#: wp-includes/class-wp-customize-manager.php:5305
+#: wp-includes/class-wp-customize-manager.php:5308
 msgid "Additional CSS"
 msgstr "Додаткові CSS"
 
-#: wp-includes/class-wp-customize-manager.php:5199
+#: wp-includes/class-wp-customize-manager.php:5202
 msgid "Scroll with Page"
 msgstr "Прокручувати зі сторінкою"
 
-#: wp-includes/class-wp-customize-manager.php:5187
+#: wp-includes/class-wp-customize-manager.php:5190
 msgid "Repeat Background Image"
 msgstr "Повторювати фонове зображення"
 
-#: wp-includes/class-wp-customize-manager.php:5174
+#: wp-includes/class-wp-customize-manager.php:5177
 msgid "Original"
 msgstr "Оригінальний"
 
-#: wp-includes/class-wp-customize-manager.php:5170
+#: wp-includes/class-wp-customize-manager.php:5173
 msgid "Image Size"
 msgstr "Розмір зображення"
 
-#: wp-includes/class-wp-customize-manager.php:5155
+#: wp-includes/class-wp-customize-manager.php:5158
 #: wp-includes/customize/class-wp-customize-background-position-control.php:66
 msgid "Image Position"
 msgstr "Позиція зображення"
 
-#: wp-includes/class-wp-customize-manager.php:5138
+#: wp-includes/class-wp-customize-manager.php:5141
 msgctxt "Custom Preset"
 msgid "Custom"
 msgstr "Користувацький"
 
-#: wp-includes/class-wp-customize-manager.php:5137
+#: wp-includes/class-wp-customize-manager.php:5140
 msgctxt "Repeat Image"
 msgid "Repeat"
 msgstr "Повторювати"
 
-#: wp-includes/class-wp-customize-manager.php:5136
-#: wp-includes/class-wp-customize-manager.php:5175
+#: wp-includes/class-wp-customize-manager.php:5139
+#: wp-includes/class-wp-customize-manager.php:5178
 msgid "Fit to Screen"
 msgstr "На весь екран"
 
-#: wp-includes/class-wp-customize-manager.php:5134
+#: wp-includes/class-wp-customize-manager.php:5137
 msgctxt "Default Preset"
 msgid "Default"
 msgstr "За замовчуванням"
 
-#: wp-includes/class-wp-customize-manager.php:5130
+#: wp-includes/class-wp-customize-manager.php:5133
 msgctxt "Background Preset"
 msgid "Preset"
 msgstr "За замовчанням"
 
-#: wp-includes/class-wp-customize-manager.php:5078
+#: wp-includes/class-wp-customize-manager.php:5081
 msgid "Header Video"
 msgstr "Відео заголовка"
 
 #. translators: 1: .mp4, 2: header height in pixels
-#: wp-includes/class-wp-customize-manager.php:5025
+#: wp-includes/class-wp-customize-manager.php:5028
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a height of %2$s pixels."
 msgstr "Завантажте відеоролик у форматі %1$s і мінімізуйте розмір файлу для кращих результатів. Ваша тема рекомендує висоту в %2$s пікселів."
 
 #. translators: 1: .mp4, 2: header width in pixels
-#: wp-includes/class-wp-customize-manager.php:5018
+#: wp-includes/class-wp-customize-manager.php:5021
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends a width of %2$s pixels."
 msgstr "Завантажте відеоролик у форматі %1$s і мінімізуйте розмір файлу для кращих результатів. Ваша тема рекомендує ширину в %2$s пікселів."
 
 #. translators: 1: .mp4, 2: header size in pixels
-#: wp-includes/class-wp-customize-manager.php:5011
+#: wp-includes/class-wp-customize-manager.php:5014
 msgid "Upload your video in %1$s format and minimize its file size for best results. Your theme recommends dimensions of %2$s pixels."
 msgstr "Завантажте відеоролик у форматі %1$s і мінімізуйте розмір файлу для кращих результатів. Ваша тема рекомендує розміри в %2$s пікселів."
 
-#: wp-includes/class-wp-customize-manager.php:5004
+#: wp-includes/class-wp-customize-manager.php:5007
 msgid "If you add a video, the image will be used as a fallback while the video loads."
 msgstr "Якщо ви додасте відеоролик, зображення буде використано як резервний варіант під час завантаження відео."
 
@@ -4014,23 +4034,23 @@ msgid "Search themes&hellip;"
 msgstr "Шукати теми&hellip;"
 
 #. translators: %s: theme name
-#: wp-includes/class-wp-customize-manager.php:4710
+#: wp-includes/class-wp-customize-manager.php:4713
 msgid "Showing details for theme: %s"
 msgstr "Показ подробиць для теми: %s"
 
 #. translators: %d: number of themes being displayed, which cannot currently
 #. consider singular vs. plural forms
-#: wp-includes/class-wp-customize-manager.php:4708
+#: wp-includes/class-wp-customize-manager.php:4711
 msgid "Displaying %d themes"
 msgstr "Показано %d тем"
 
 #. translators: %d: number of theme search results, which cannot currently
 #. consider singular vs. plural forms
-#: wp-includes/class-wp-customize-manager.php:4706
+#: wp-includes/class-wp-customize-manager.php:4709
 msgid "%d themes found"
 msgstr "Знайдено %d тем"
 
-#: wp-includes/class-wp-customize-manager.php:4704
+#: wp-includes/class-wp-customize-manager.php:4707
 msgid "Are you sure you want to delete this theme?"
 msgstr "Ви точно хочете видалити цю тему?"
 
@@ -4136,7 +4156,7 @@ msgstr "Призупинити"
 msgid "Play"
 msgstr "Відтворити"
 
-#: wp-includes/taxonomy.php:2055 wp-includes/taxonomy.php:2681
+#: wp-includes/taxonomy.php:2076 wp-includes/taxonomy.php:2702
 msgid "A name is required for this term."
 msgstr "Цій групі таксономії потрібна назва."
 
@@ -4506,7 +4526,7 @@ msgstr "Константа %1$s <strong>застаріла</strong>. Викор�
 
 #. translators: 1: panel id, 2: link to 'customize_loaded_components' filter
 #. reference
-#: wp-includes/class-wp-customize-manager.php:3760
+#: wp-includes/class-wp-customize-manager.php:3763
 msgid "Removing %1$s manually will cause PHP warnings. Use the %2$s filter instead."
 msgstr "Видалення %1$s вручну спричинить попередження PHP. Натомість використовуйте фільтр %2$s."
 
@@ -4616,20 +4636,20 @@ msgstr "Закрити вікно"
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "Викликаний метод конструктора для %1$s у %2$s <strong>застарілий</strong> із версії %3$s! Натомість використовуйте %4$s."
 
-#: wp-includes/class-wp-customize-manager.php:4944
+#: wp-includes/class-wp-customize-manager.php:4947
 msgid "Choose logo"
 msgstr "Вибрати лого"
 
-#: wp-includes/class-wp-customize-manager.php:4942
+#: wp-includes/class-wp-customize-manager.php:4945
 msgid "No logo selected"
 msgstr "Лого не обрано"
 
-#: wp-includes/class-wp-customize-manager.php:4939
+#: wp-includes/class-wp-customize-manager.php:4942
 msgid "Change logo"
 msgstr "Змінити лого"
 
-#: wp-includes/class-wp-customize-manager.php:4938
-#: wp-includes/class-wp-customize-manager.php:4943
+#: wp-includes/class-wp-customize-manager.php:4941
+#: wp-includes/class-wp-customize-manager.php:4946
 msgid "Select logo"
 msgstr "Обрати лого"
 
@@ -4691,24 +4711,24 @@ msgstr "Невірний тип об’єкта"
 msgid "Paste URL or type to search"
 msgstr "Вставити посилання, чи друкувати для пошуку"
 
-#: wp-includes/class-wp-customize-manager.php:4930
+#: wp-includes/class-wp-customize-manager.php:4933
 msgid "Logo"
 msgstr "Лого"
 
-#: wp-includes/class-wp-customize-manager.php:4896
-#: wp-includes/class-wp-customize-manager.php:4974
+#: wp-includes/class-wp-customize-manager.php:4899
+#: wp-includes/class-wp-customize-manager.php:4977
 msgid "Display Site Title and Tagline"
 msgstr "Відображення назви сайту та ключової фрази"
 
-#: wp-includes/class-wp-customize-manager.php:4797
+#: wp-includes/class-wp-customize-manager.php:4800
 msgid "Enter mobile preview mode"
 msgstr "Увійти у режим попереднього перегляду мобільного пристрою"
 
-#: wp-includes/class-wp-customize-manager.php:4794
+#: wp-includes/class-wp-customize-manager.php:4797
 msgid "Enter tablet preview mode"
 msgstr "Увійти у режим попереднього перегляду планшета"
 
-#: wp-includes/class-wp-customize-manager.php:4790
+#: wp-includes/class-wp-customize-manager.php:4793
 msgid "Enter desktop preview mode"
 msgstr "Увійти у режим попереднього перегляду настільного комп’ютера"
 
@@ -4798,7 +4818,7 @@ msgstr "Натомість використовуйте %s якщо ви не х
 msgid "Term ID is shared between multiple taxonomies"
 msgstr "Ідентифікатор групи спільний для декількох таксономій"
 
-#: wp-includes/taxonomy.php:1144 wp-includes/taxonomy.php:1226
+#: wp-includes/taxonomy.php:1165 wp-includes/taxonomy.php:1247
 msgid "Term meta cannot be added to terms that are shared between taxonomies."
 msgstr "Мета дані не можуть бути додані до груп, які спільні для декількох таксономій."
 
@@ -5373,7 +5393,7 @@ msgid "Press return or enter to open this section"
 msgstr "Натисніть повернутися або увійти, щоби відкрити цей розділ."
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:4372
+#: wp-includes/class-wp-customize-manager.php:4375
 msgid "Live Preview: %s"
 msgstr "Перегляд: %s"
 
@@ -5521,11 +5541,11 @@ msgstr "Сховати зображення"
 msgid "Hide header image"
 msgstr "Сховати зображення заголовка"
 
-#: wp-includes/class-wp-customize-manager.php:4910
+#: wp-includes/class-wp-customize-manager.php:4913
 msgid "Site Icon"
 msgstr "Іконка сайту"
 
-#: wp-includes/class-wp-customize-manager.php:4861
+#: wp-includes/class-wp-customize-manager.php:4864
 msgid "Site Identity"
 msgstr "Ідентичність сайту"
 
@@ -6164,7 +6184,7 @@ msgstr "Встановлення завершено успішно."
 msgid "Taxonomy names must be between 1 and 32 characters in length."
 msgstr "Довжина імені таксономії повинна становити від 1 до 32 символів."
 
-#: wp-includes/taxonomy.php:3595
+#: wp-includes/taxonomy.php:3616
 msgid "Could not split shared term."
 msgstr "Не вийшло розділити спільну групу."
 
@@ -6384,7 +6404,7 @@ msgstr "Шлях до елементів"
 msgid "The following values do not describe a valid date: month %1$s, day %2$s."
 msgstr "Наступний вираз не є дійсною датою: місяць %1$s, день %2$s."
 
-#: wp-includes/taxonomy.php:2144
+#: wp-includes/taxonomy.php:2165
 msgid "A term with the name provided already exists in this taxonomy."
 msgstr "Термін з цією назвою та адресою вже існує в цій таксономії."
 
@@ -6709,7 +6729,7 @@ msgstr "Обрати декілька"
 
 #. translators: %s: taxonomy label, %l: list of terms formatted as per
 #. $term_template
-#: wp-includes/taxonomy.php:4099
+#: wp-includes/taxonomy.php:4120
 msgid "%s: %l."
 msgstr "%s: %l."
 
@@ -6845,7 +6865,7 @@ msgstr "Віджети є незалежними розділу змісту, я
 msgid "You are customizing %s"
 msgstr "Ви налаштовуєте %s"
 
-#: wp-includes/comment.php:3157
+#: wp-includes/comment.php:3161
 msgid "<strong>ERROR</strong>: The comment could not be saved. Please try again later."
 msgstr "<strong>ПОМИЛКА</strong>: Коментар не може бути збережений. Будь ласка, спробуйте пізніше."
 
@@ -8429,7 +8449,7 @@ msgctxt "Display name based on first name and last name"
 msgid "%1$s %2$s"
 msgstr "%2$s %1$s"
 
-#: wp-includes/taxonomy.php:2389
+#: wp-includes/taxonomy.php:2410
 msgid "Could not insert term relationship into the database."
 msgstr "Не вдалося вставити зв'язок елемента в базу даних."
 
@@ -8521,11 +8541,11 @@ msgstr "Текст"
 msgid "Skip to toolbar"
 msgstr "Перейти до панелі інструментів"
 
-#: wp-includes/class-wp-customize-manager.php:4981
+#: wp-includes/class-wp-customize-manager.php:4984
 msgid "Header Text Color"
 msgstr "Колір тексту заловку"
 
-#: wp-includes/class-wp-customize-manager.php:4958
+#: wp-includes/class-wp-customize-manager.php:4961
 msgid "Colors"
 msgstr "Кольори"
 
@@ -8559,7 +8579,7 @@ msgstr "На жаль, ви не можете прикріпляти прива�
 msgid "Sorry, you are not allowed to publish this page."
 msgstr "На жаль, ви не можете оприлюднити цю сторінку."
 
-#: wp-includes/class-wp-customize-manager.php:5031
+#: wp-includes/class-wp-customize-manager.php:5034
 #: wp-includes/customize/class-wp-customize-header-image-control.php:31
 msgid "Header Image"
 msgstr "Зображення в заголовку"
@@ -8604,16 +8624,16 @@ msgstr[0] "Ім'я сайту має бути не коротше %s симво�
 msgstr[1] "Ім'я сайту має бути не коротше %s символів"
 msgstr[2] "Ім'я сайту має бути не коротше %s символів"
 
-#: wp-includes/class-wp-customize-manager.php:5238
+#: wp-includes/class-wp-customize-manager.php:5241
 msgid "A static page"
 msgstr "Статична сторінка"
 
-#: wp-includes/class-wp-customize-manager.php:5105
+#: wp-includes/class-wp-customize-manager.php:5108
 #: wp-includes/customize/class-wp-customize-background-image-control.php:30
 msgid "Background Image"
 msgstr "Фонове зображення"
 
-#: wp-includes/class-wp-customize-manager.php:4996
+#: wp-includes/class-wp-customize-manager.php:4999
 msgid "Background Color"
 msgstr "Фоновий колір"
 
@@ -8629,7 +8649,7 @@ msgstr "Видалити зображення"
 msgid "Sorry, you are not allowed to edit this comment."
 msgstr "На жаль, вам не дозволено редагувати цей коментар."
 
-#: wp-includes/class-wp-customize-manager.php:5260
+#: wp-includes/class-wp-customize-manager.php:5263
 msgid "Posts page"
 msgstr "Сторінка записів"
 
@@ -8637,7 +8657,7 @@ msgstr "Сторінка записів"
 msgid "Allowed Files"
 msgstr "Дозволені файли"
 
-#: wp-includes/class-wp-customize-manager.php:4940
+#: wp-includes/class-wp-customize-manager.php:4943
 #: wp-includes/class-wp-customize-widgets.php:753
 #: wp-includes/class-wp-editor.php:1256
 #: wp-includes/customize/class-wp-customize-media-control.php:226
@@ -8670,7 +8690,7 @@ msgstr "На жаль, змінити елемент не вдалося."
 #: wp-includes/class-wp-xmlrpc-server.php:1501
 #: wp-includes/class-wp-xmlrpc-server.php:2053
 #: wp-includes/class-wp-xmlrpc-server.php:2149
-#: wp-includes/class-wp-xmlrpc-server.php:2221 wp-includes/taxonomy.php:2052
+#: wp-includes/class-wp-xmlrpc-server.php:2221 wp-includes/taxonomy.php:2073
 msgid "Invalid term ID."
 msgstr "Невірний ідентифікатор групи таксономії."
 
@@ -8682,7 +8702,7 @@ msgstr "На жаль, вам не дозволено редагувати гр�
 #: wp-includes/class-wp-xmlrpc-server.php:2077
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:406
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:511
-#: wp-includes/taxonomy.php:2061 wp-includes/taxonomy.php:2685
+#: wp-includes/taxonomy.php:2082 wp-includes/taxonomy.php:2706
 msgid "Parent term does not exist."
 msgstr "Батьківського елементу не існує"
 
@@ -8703,11 +8723,11 @@ msgstr "На жаль, вам не дозволено створювати гр�
 #: wp-includes/class-wp-xmlrpc-server.php:2270
 #: wp-includes/class-wp-xmlrpc-server.php:2365
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:163
-#: wp-includes/taxonomy.php:420 wp-includes/taxonomy.php:652
-#: wp-includes/taxonomy.php:752 wp-includes/taxonomy.php:931
-#: wp-includes/taxonomy.php:1090 wp-includes/taxonomy.php:1901
-#: wp-includes/taxonomy.php:2037 wp-includes/taxonomy.php:2300
-#: wp-includes/taxonomy.php:2443 wp-includes/taxonomy.php:2644
+#: wp-includes/taxonomy.php:420 wp-includes/taxonomy.php:673
+#: wp-includes/taxonomy.php:773 wp-includes/taxonomy.php:952
+#: wp-includes/taxonomy.php:1111 wp-includes/taxonomy.php:1922
+#: wp-includes/taxonomy.php:2058 wp-includes/taxonomy.php:2321
+#: wp-includes/taxonomy.php:2464 wp-includes/taxonomy.php:2665
 msgid "Invalid taxonomy."
 msgstr "Невірна таксономія."
 
@@ -8757,7 +8777,7 @@ msgid "ERROR: The themes directory is either empty or doesn&#8217;t exist. Pleas
 msgstr "ПОМИЛКА: Тека теми не існує або порожня. Перевірте правильність встановлення."
 
 #. translators: %s: document title from the preview
-#: wp-includes/class-wp-customize-manager.php:4369
+#: wp-includes/class-wp-customize-manager.php:4372
 msgid "Customize: %s"
 msgstr "Налаштувати: %s"
 
@@ -8767,11 +8787,11 @@ msgstr "Налаштувати: %s"
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Обрати &mdash;"
 
-#: wp-includes/class-wp-customize-manager.php:4883
+#: wp-includes/class-wp-customize-manager.php:4886
 msgid "Tagline"
 msgstr "Ключова фраза"
 
-#: wp-includes/class-wp-customize-manager.php:5237
+#: wp-includes/class-wp-customize-manager.php:5240
 msgid "Your latest posts"
 msgstr "Ваші останні записи"
 
@@ -8811,7 +8831,7 @@ msgstr "На жаль, вам не дозволено редагувати це�
 msgid "Edit Site"
 msgstr "Редагувати сайт"
 
-#: wp-includes/post.php:4044 wp-includes/script-loader.php:683
+#: wp-includes/post.php:4061 wp-includes/script-loader.php:683
 #: wp-includes/script-loader.php:755
 msgctxt "tag delimiter"
 msgid ","
@@ -8846,7 +8866,7 @@ msgstr "На жаль, вам не дозволено створювати за�
 #: wp-includes/class-wp-xmlrpc-server.php:1715
 #: wp-includes/class-wp-xmlrpc-server.php:4863
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:825
-#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:312
+#: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:420
 msgid "The post cannot be deleted."
 msgstr "Запис не може бути видалений."
 
@@ -8942,7 +8962,7 @@ msgstr "Створіть файл конфігурації"
 msgid "You can create a %s file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file."
 msgstr "Ви можете створити файл %s через веб-інтерфейс, але це не працює для всіх серверів. Найбезпечніший спосіб це створити файл вручну."
 
-#: wp-includes/class-wp-customize-manager.php:5271
+#: wp-includes/class-wp-customize-manager.php:5274
 msgid "https://codex.wordpress.org/CSS"
 msgstr "https://codex.wordpress.org/CSS"
 
@@ -9029,15 +9049,15 @@ msgstr "%s перевищує максимальний ліміт розміру
 msgid "Feedback"
 msgstr "Зворотній зв'язок"
 
-#: wp-includes/comment.php:3125
+#: wp-includes/comment.php:3129
 msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
 msgstr "<strong>ПОМИЛКА</strong>: будь ласка, заповніть необхідні поля (ім'я, e-mail)."
 
-#: wp-includes/comment.php:3127
+#: wp-includes/comment.php:3131
 msgid "<strong>ERROR</strong>: please enter a valid email address."
 msgstr "<strong>ПОМИЛКА</strong>: будь ласка, введіть вірну e-mail адресу."
 
-#: wp-includes/comment.php:3132
+#: wp-includes/comment.php:3136
 msgid "<strong>ERROR</strong>: please type a comment."
 msgstr "<strong>ПОМИЛКА</strong>: будь ласка, напишіть коментар."
 
@@ -9804,7 +9824,7 @@ msgstr "Схоже, що посилання на URL WordPress&#8217;у  не в
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "Введена e-mail адреса недійсна. Будь ласка, введіть дійсний e-mail."
 
-#: wp-includes/taxonomy.php:2141
+#: wp-includes/taxonomy.php:2162
 msgid "A term with the name provided already exists with this parent."
 msgstr "Елемент з вказаною назвою вже існує у батьківського елементу"
 
@@ -10198,7 +10218,7 @@ msgstr "Потрібні ім'я та e-mail автора коментаря."
 #: wp-includes/class-wp-xmlrpc-server.php:6098
 #: wp-includes/class-wp-xmlrpc-server.php:6152
 #: wp-includes/class-wp-xmlrpc-server.php:6271 wp-includes/post.php:3180
-#: wp-includes/post.php:3714
+#: wp-includes/post.php:3728
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:326
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:688
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:369
@@ -10390,8 +10410,8 @@ msgstr "<strong>ПОМИЛКА</strong>: Будь ласка, введіть с�
 #: wp-includes/user.php:2227 wp-includes/user.php:2230
 #: wp-includes/user.php:2234 wp-includes/user.php:2259
 #: wp-includes/user.php:2268 wp-includes/user.php:2272
-#: wp-includes/user.php:2289 wp-includes/user.php:3437
-#: wp-includes/user.php:3449 wp-includes/user.php:3467 wp-login.php:854
+#: wp-includes/user.php:2289 wp-includes/user.php:3456
+#: wp-includes/user.php:3468 wp-includes/user.php:3486 wp-login.php:854
 msgid "Invalid key"
 msgstr "Неправильний ключ"
 
@@ -10458,21 +10478,21 @@ msgstr "Відсутній файл стилів."
 msgid "The parent theme is missing. Please install the \"%s\" parent theme."
 msgstr "Відсутня батьківська тема. Будь ласка, встановіть батьківську тему «%s»."
 
-#: wp-includes/taxonomy.php:4170
+#: wp-includes/taxonomy.php:4191
 msgid "Invalid object ID."
 msgstr "Невірний ID об'єкта"
 
 #. translators: 1: Taxonomy term slug
-#: wp-includes/taxonomy.php:2743
+#: wp-includes/taxonomy.php:2764
 msgid "The slug &#8220;%s&#8221; is already in use by another term."
 msgstr "Ярлик &#8220;%s&#8221; вже використовується іншим елементом"
 
-#: wp-includes/taxonomy.php:2165
+#: wp-includes/taxonomy.php:2186
 msgid "Could not insert term into the database."
 msgstr "Не вдалося вставити елемент в базу даних"
 
-#: wp-includes/taxonomy.php:748 wp-includes/taxonomy.php:2657
-#: wp-includes/taxonomy.php:3958
+#: wp-includes/taxonomy.php:769 wp-includes/taxonomy.php:2678
+#: wp-includes/taxonomy.php:3979
 msgid "Empty Term."
 msgstr "Порожній елемент"
 
@@ -10918,8 +10938,8 @@ msgstr "Стрічка коментарів"
 msgid "Insert Page Break tag"
 msgstr "Вставити позначку розриву сторінки"
 
-#: wp-includes/class-wp-customize-manager.php:5135
-#: wp-includes/class-wp-customize-manager.php:5176
+#: wp-includes/class-wp-customize-manager.php:5138
+#: wp-includes/class-wp-customize-manager.php:5179
 msgid "Fill Screen"
 msgstr "Заповнити екран"
 
@@ -11056,7 +11076,7 @@ msgstr "Новий документ"
 msgid "Paste"
 msgstr "Вставити"
 
-#: wp-includes/class-wp-customize-manager.php:4202
+#: wp-includes/class-wp-customize-manager.php:4205
 #: wp-includes/class-wp-editor.php:1043
 msgid "Copy"
 msgstr "Копіювати"
@@ -11908,7 +11928,7 @@ msgstr "Наступна сторінка &raquo;"
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Попередня сторінка"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3634 wp-includes/comment.php:3039
+#: wp-includes/class-wp-xmlrpc-server.php:3634 wp-includes/comment.php:3043
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:465
 msgid "Sorry, comments are closed for this item."
 msgstr "На жаль, коментування цього елемента вимкнено."
@@ -11951,7 +11971,7 @@ msgstr "Заголовок:"
 msgid "Plugin:"
 msgstr "Плагін:"
 
-#: wp-includes/class-wp-customize-manager.php:4941
+#: wp-includes/class-wp-customize-manager.php:4944
 #: wp-includes/customize/class-wp-customize-color-control.php:51
 #: wp-includes/customize/class-wp-customize-media-control.php:225
 #: wp-includes/customize/class-wp-customize-media-control.php:235
@@ -11982,7 +12002,7 @@ msgstr "Дозволити залишати коментарі до нових �
 msgid "Email"
 msgstr "Email"
 
-#: wp-includes/class-wp-customize-manager.php:4872
+#: wp-includes/class-wp-customize-manager.php:4875
 #: wp-includes/class-wp-xmlrpc-server.php:540
 msgid "Site Title"
 msgstr "Назва сайту"
@@ -12129,7 +12149,7 @@ msgstr "Нова сторінка"
 msgid "Select"
 msgstr "Обрати"
 
-#: wp-includes/class-wp-customize-manager.php:5301
+#: wp-includes/class-wp-customize-manager.php:5304
 #: wp-includes/class-wp-editor.php:1051 wp-includes/class-wp-editor.php:1701
 #: wp-includes/script-loader.php:277 wp-includes/script-loader.php:371
 #: wp-includes/script-loader.php:562 wp-includes/script-loader.php:1137
@@ -12170,7 +12190,7 @@ msgstr "Зображення"
 msgid "Search"
 msgstr "Пошук"
 
-#: wp-includes/class-wp-customize-manager.php:4129
+#: wp-includes/class-wp-customize-manager.php:4132
 #: wp-includes/script-loader.php:146 wp-includes/script-loader.php:307
 #: wp-includes/widgets/class-wp-widget-text.php:521
 #: wp-includes/widgets/class-wp-widget-text.php:536
@@ -12355,7 +12375,7 @@ msgstr "Сповіщення"
 msgid "Reply"
 msgstr "Відповіcти"
 
-#: wp-includes/class-wp-customize-manager.php:4622
+#: wp-includes/class-wp-customize-manager.php:4625
 #: wp-includes/script-loader.php:551 wp-includes/script-loader.php:705
 msgid "Save Draft"
 msgstr "До чернеток"
@@ -12383,7 +12403,7 @@ msgstr "Плагіни"
 msgid "Recent Comments"
 msgstr "Останні коментарі"
 
-#: wp-includes/class-wp-customize-manager.php:4156
+#: wp-includes/class-wp-customize-manager.php:4159
 #: wp-includes/class-wp-editor.php:1117 wp-includes/media-template.php:1247
 msgid "Preview"
 msgstr "Переглянути"
@@ -12394,7 +12414,7 @@ msgstr "RSS"
 
 #. translators: Name of a comment's author after being anonymized.
 #: wp-includes/class-wp-theme.php:732 wp-includes/comment-template.php:31
-#: wp-includes/comment.php:3328
+#: wp-includes/comment.php:3332
 msgid "Anonymous"
 msgstr "Анонім"
 
@@ -12491,12 +12511,12 @@ msgstr "Редакції"
 msgid "Excerpt"
 msgstr "Уривок"
 
-#: wp-includes/class-wp-customize-manager.php:4617
+#: wp-includes/class-wp-customize-manager.php:4620
 #: wp-includes/script-loader.php:549 wp-includes/script-loader.php:701
 msgid "Publish"
 msgstr "Опублікувати"
 
-#: wp-includes/comment.php:3258 wp-includes/script-loader.php:656
+#: wp-includes/comment.php:3262 wp-includes/script-loader.php:656
 msgid "Comments"
 msgstr "Коментарі"
 
